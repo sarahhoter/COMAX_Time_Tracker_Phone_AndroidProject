@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COMAX time tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="icon_grid">&#xf00a;</string>
+    <string name="icon_list">&#xf0c9;</string>
+
+    <string-array name="servers">
+        <item>Israel</item>
+        <item>Moldova</item>
+    </string-array>
+    <string-array name="languages">
+        <item>עברית</item>
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+    
+    <string name="login_incorect">Login was unsuccessful.\nWrong input</string>
+    <string name="error">Error</string>
+    <string name="load_categories_fail">Error while load categories</string>
+
+    <string name="printer_unavailable_versionApi">Sorry, your Android version does not support printing, please upgrade it to Android KITKAT (4.4).</string>
+    <string name="modelDetail">Model detail</string>
+    <string name="language">Language</string>
+    <string name="new_proposal">New proposal</string>
+    <string name="choose_customer">Choose customer</string>
+    <string name="choose_store">Choose store</string>
+    <string name="choose_project">Choose project</string>
+    <string name="choose_date">Click here to choose a date</string>
+    <string name="order_no">Order No. </string>
+    <string name="inventory_order_from">Inventory order from </string>
+    <string name="proposals_list">Proposals list</string>
+    <string name="monthly_sales_title">Monthly Sales</string>
+    <string name="monthly_sales"><u>Monthly Sales</u></string>
+    <string name="proposal_details">Proposal details</string>
+    <string name="project">Project</string>
+    <string name="remove">Remove</string>
+    <string name="total_balance">Total balance</string>
+    <string name="order_by_customer">Order by customer</string>
+    <string name="order_from">Order from</string>
+    <string name="order_from_suppliers">Order from suppliers</string>
+    <string name="lines">Lines</string>
+    <string name="enclosures">Enclosures</string>
+    <string name="preview">Preview</string>
+    <string name="balance_models">Balance models</string>
+    <string name="items">Items</string>
+    <string name="list_of_all_items">List of all items</string>
+    <string name="list_of_all_orders">List of all orders</string>
+    <string name="items_balance">Items balance</string>
+    <string name="models_balance">Models balance</string>
+    <string name="model">Model</string>
+    <string name="pricing">Pricing</string>
+    <string name="menu_item_inventory">Inventory orders</string>
+    <string name="menu_inventory_description">List of all inventory orders</string>
+    <string name="please_select_customer_first">Please select customer first.</string>
+    <string name="press_here_to_select">Press here to select</string>
+    <string name="until">Until</string>
+    <string name="all">All</string>
+    <string name="more">More</string>
+    <string name="search_customer">Search Customer</string>
+    <string name="serial_item">Serial Item</string>
+    <string name="open_date">Open Date</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="months">Months</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="calls">Calls</string>
+    <string name="debts">Debts</string>
+    <string name="jan">Jan</string>
+    <string name="feb">Feb</string>
+    <string name="mar">Mar</string>
+    <string name="apr">Apr</string>
+    <string name="may">May</string>
+    <string name="jun">Jun</string>
+    <string name="jul">Jul</string>
+    <string name="aug">Aug</string>
+    <string name="sep">Sep</string>
+    <string name="oct">Oct</string>
+    <string name="nov">Nov</string>
+    <string name="dec">Dec</string>
+    <string name="logout_mes">Are you sure you wish to log out?</string>
+    <string name="confirmation_dialog">Confirmation Dialog</string>
+    <string name="access_demo">Access demo account to test all features and usability</string>
+    <string name="finish_order">Finish order!?</string>
+    <string name="continue_unfinished_order">You have an unfinished order! Do you want to finish, or cancel it?</string>
+    <string name="remember_or_clear_order">To remember your choose or to clear your order?</string>
+    <string name="remember">Remember</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus_underline"><u>Bonus</u></string>
+    <string name="add_customer">Add custommer</string>
+    <string name="last">Last</string>
+    <string name="add_service_task">Add service task</string>
+    <string name="update_service_task">Update service task</string>
+    <string name="attribute">Attribute</string>
+    <string name="care_by">Care by</string>
+    <string name="making_note">Making note</string>
+    <string name="description">Description</string>
+    <string name="none">None</string>
+    <string name="service_list">Service list</string>
+    <string name="today_calls_by_hours">Today calls by hours</string>
+    <string name="this_month_calls">This month calls</string>
+    <string name="this_year_calls">This year calls</string>
+    <string name="new_call">New Call</string>
+    <string name="list">List</string>
+    <string name="sum">Sum</string>
+    <string name="price_netto">Price Netto</string>
+    <string name="item">Item</string>
+    <string name="number">number</string>
+    <string name="invoice_type">Invoice type</string>
+    <string name="return_invoices">Return invoices</string>
+    <string name="return_invoice">Return invoice</string>
+    <string name="order_successfully_submited">Your order was successfully submited.</string>
+    <string name="invoice_successfully_submited">Your invoice was successfully submited.</string>
+    <string name="return_invoice_successfully_submited">Your return invoice was successfully submited.</string>
+    <string name="shipping_doc_successfully_submited">Your shipping document was successfully submited.</string>
+    <string name="refund_certificate_successfully_submited">Your refund certificate was successfully submited.</string>
+    <string name="quantity_in_last_two_years">Quantity in last 2 years</string>
+    <string name="money_in_last_two_years">Money in last 2 years</string>
+    <string name="item_information">Item information</string>
+    <string name="item_">Item:</string>
+    <string name="items_">Items:</string>
+    <string name="sub_group">Sub group</string>
+    <string name="department">Department</string>
+    <string name="supplier">Supplier</string>
+    <string name="info">Info</string>
+    <string name="archive">Archive</string>
+    <string name="block_procurements">Block for procurement</string>
+    <string name="catalog_funnel">Catalog funnel</string>
+    <string name="fax">Fax</string>
+    <string name="account_movements_query">Account movements query</string>
+    <string name="number_for_order">Number for order: </string>
+    <string name="card_company">Card company</string>
+    <string name="please_select_card_company_first">Please select card company first.</string>
+    <string name="new_receipts">New receipts</string>
+    <string name="card_number">Card number</string>
+    <string name="valid_date">Valid date</string>
+    <string name="transaction_type">Transaction type</string>
+    <string name="confirmation_number">Confirmation number</string>
+    <string name="credit_company">Credit company</string>
+    <string name="credit_card_payment_u"><u>Credit card payment</u></string>
+    <string name="credit_card_payment">Credit card payment</string>
+    <string name="cash_payment_u"><u>Cash payment</u></string>
+    <string name="cash_payment">Cash payment</string>
+    <string name="cash">Cash</string>
+    <string name="credit_card">Credit card</string>
+    <string name="sale_details">Sale details</string>
+    <string name="sales_details_branch">Branch:</string>
+    <string name="sales_details_invoices">Invoices:</string>
+    <string name="sales_details_quantity">Quantity:</string>
+    <string name="sales_details_money">Money:</string>
+    <string name="sales_details_yesterday_money">Yesterday money:</string>
+    <string name="sales_details_last_week_money">Last week money:</string>
+    <string name="sales_details_average">Average:</string>
+    <string name="sales_details_average_price">Average price:</string>
+    <string name="sales_details_percent_profit">% profit:</string>
+    <string name="sales_details_percent_different">% different:</string>
+    <string name="sales_details_workers">Workers:</string>
+    <string name="sales_details_last_time">Last time:</string>
+    <string name="sales_details_profit">Profit:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="you_want_to_print_this_order">You want to print this order?</string>
+    <string name="you_want_to_print_this_return_invoice">You want to print this return invoice?</string>
+    <string name="you_want_to_print_this_receipt">You want to print this receipt?</string>
+    <string name="you_want_to_print_this_shipping_document">You want to print this shipping document?</string>
+    <string name="you_want_to_print_this_invoice">You want to print this invoice?</string>
+    <string name="you_want_to_print_this_refund_certificate">You want to print this refund certificate?</string>
+    <string name="you_want_to_print_this_proposal">You want to print this proposal?</string>
+    <string name="end_of_day">End of day</string>
+    <string name="question">Question</string>
+    <string name="last_week">Last Week</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="profit">Profit</string>
+    <string name="workers">Workers</string>
+    <string name="branch">Branch</string>
+    <string name="clear">Clear</string>
+    <string name="clear_b"><b>Clear</b></string>
+    <string name="receipts_list">Receipts list</string>
+    <string name="all_receipts_list">List of all receipts</string>
+    <string name="sales_online">Sales online</string>
+    <string name="all_sales_online">List of all online sales</string>
+    <string name="target_versus_performance">Target versus performance</string>
+    <string name="target_versus_performance_information">Target versus performance information</string>
+    <string name="cumulative_sales">Cumulative sales</string>
+    <string name="all_cumulative_sales">List of all cumulative sales</string>
+    <string name="customers_orders">Customers orders</string>
+    <string name="new_invoice">New Invoice</string>
+    <string name="new_shipping_document">New Shipping Document</string>
+    <string name="new_refund_certificate">New Refund Certificate</string>
+    <string name="month">Month</string>
+    <string name="by_value_date">By value date</string>
+    <string name="by_document_date">By document date</string>
+    <string name="order_by">Order by</string>
+    <string name="revenue">Revenue</string>
+    <string name="payments">Payments</string>
+    <string name="revenue_in_last_two_years">Revenue in the last 2 years</string>
+    <string name="payments_in_last_two_years">Payments in the last 2 years</string>
+    <string name="reference">Reference</string>
+    <string name="activity">Activity</string>
+    <string name="accounting">Accounting</string>
+    <string name="payment_due">Payment due</string>
+    <string name="dates_u"><u>Dates</u></string>
+    <string name="dates">Dates</string>
+    <string name="alternate_account">Alternate account</string>
+    <string name="account">Account</string>
+    <string name="document_type">Document type</string>
+    <string name="invoice_details">Invoice details</string>
+    <string name="return_invoice_details">Return invoice details</string>
+    <string name="new_return_invoice">New return invoice</string>
+    <string name="payment_day">Payment D.</string>
+    <string name="balance">Balance</string>
+    <string name="ref">Ref</string>
+    <string name="p_date">P.date</string>
+    <string name="customer_price_list">Customer price list</string>
+    <string name="fill_empty_fields">Please fill empty fields.</string>
+    <string name="agent">Agent</string>
+    <string name="phone">Phone</string>
+    <string name="street_and_number">Street and number</string>
+    <string name="city">City</string>
+    <string name="company_id">Company ID</string>
+    <string name="code">Code</string>
+    <string name="update_customer">Update customer</string>
+    <string name="order_list">Order list</string>
+    <string name="orders_list">Orders list</string>
+    <string name="inventory_list">Inventory orders</string>
+    <string name="vat"> 18.00 % VAT</string>
+    <string name="document">Document</string>
+    <string name="netto_price">Netto price</string>
+    <string name="or">or</string>
+    <string name="departments">Departments</string>
+    <string name="groups">Groups</string>
+    <string name="limit_by">Limit by</string>
+    <string name="no_item">Sorry, no item found.</string>
+    <string name="no_prev_item">Sorry, no previous item.</string>
+    <string name="no_next_item">Sorry, no next item.</string>
+    <string name="category_select_activity_title">Select company &amp; branch</string>
+    <string name="meeting">Meeting</string>
+    <string name="store">Store</string>
+    <string name="all_status">All status</string>
+    <string name="all_attribute">All attribute</string>
+    <string name="date_service">Date service</string>
+    <string name="phone_book">Phone book</string>
+    <string name="parameters">Parameters</string>
+    <string name="fast_login">Fast login</string>
+    <string name="date_of_creation">Date of creation</string>
+    <string name="green_to_gray">Green to Gray</string>
+    <string name="password_recovery">Password recovery</string>
+    <string name="commax_employees_will_never">Commax employees will never ask for your password and user code \nWhen the system requests password change it is important to choose unpredictable password each time.</string>
+    <string name="remember_login_details">Remember me</string>
+    <string name="remember_login_pass">Remember Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="group">Group</string>
+    <string name="meetings">Meetings</string>
+    <string name="all_meetings">List of all meetings</string>
+    <string name="shipping_docs">Shipping documents</string>
+    <string name="shipping_doc">Shipping document</string>
+    <string name="invoice">Invoice</string>
+    <string name="refund_certificates">Refund certificates</string>
+    <string name="refund_certificate_details">Refund certificate details</string>
+    <string name="shipping_details">Shipping document details</string>
+    <string name="invoices">Invoices</string>
+    <string name="proposal">Proposal</string>
+    <string name="new_order">New order</string>
+    <string name="new_inventory_order">New inventory order</string>
+    <string name="existing_orders">Orders</string>
+    <string name="price_list">Price list</string>
+    <string name="aging_debts">Aging Debts</string>
+    <string name="open_invoices">Open invoices</string>
+    <string name="send_email">Send email</string>
+    <string name="print">Print</string>
+    <string name="card_index">Card index</string>
+    <string name="update">Update</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="type">Type</string>
+    <string name="remark">Remark</string>
+    <string name="new_meeting">New meeting</string>
+    <string name="add_new_meeting">Add new meeting</string>
+    <string name="follow_up_at">Follow up at</string>
+    <string name="hour">Hour</string>
+    <string name="who">Who</string>
+    <string name="status">Status</string>
+    <string name="duration">Duration</string>
+    <string name="where">Where</string>
+    <string name="send_mail">Send mail</string>
+    <string name="summary">Summary</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="order_details">Order details</string>
+    <string name="inventory_order_details">Inventory order details</string>
+    <string name="customer">Customer</string>
+    <string name="from_store">From store</string>
+    <string name="to_store">To store</string>
+    <string name="customer_">Customer:</string>
+    <string name="details">Details</string>
+    <string name="delivery_date">Delivery date</string>
+    <string name="barcode">Barcode</string>
+    <string name="name">Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="price_">Price:</string>
+    <string name="dis">%Dis.</string>
+    <string name="discount">% Discount</string>
+    <string name="money">Money</string>
+    <string name="amount">Amount</string>
+    <string name="total">Total</string>
+    <string name="sortBy">Sort by (</string>
+    <string name="itemDetail">Item detail</string>
+    <string name="priceHistory"><u>Price history</u></string>
+    <string name="salesHistory"><u>Sales history</u></string>
+    <string name="priceHistoryTitle">Price history</string>
+    <string name="salesHistoryTitle">Sales history</string>
+    <string name="signature">Signature</string>
+    <string name="signature_">Signature:</string>
+    <string name="signature_underline"><u>Signature</u></string>
+    <string name="place_for_the_signature">Place for the signature</string>
+    <string name="before_vat">Before VAT</string>
+    <string name="before_vat_">Before VAT:</string> <!-- ok -->
+    <string name="pVat">% VAT</string>
+    <string name="pVat_">% VAT:</string>
+    <string name="total_with_vat">Total with VAT</string>
+    <string name="order">Order</string>
+    <string name="s_date">S.date</string>
+    <string name="remarks">Remarks</string>
+    <string name="register">Register</string>
+    <string name="from">From</string>
+    <string name="line">Line</string>
+    <string name="to_print_a_copy">To print a copy?</string>
+    <string name="proposals">הצעות מחיר</string>
+    <string name="refund_certificate">Refund certificate</string>
+    <string name="shipping_document">Shipping document</string>
+    <string name="total_items">סה\"כ פריטים</string>
+    <string name="total_money">סה\"כ סכום</string>
+    <string name="rounding">עיגול אגורות</string>
+    <string name="store_id">Store Id</string>
+    <string name="store_id_">Store Id:</string>
+    <string name="total_">Total:</string>
+    <string name="id">Id</string>
+    <string name="pDiscount">% Discount</string>
+    <string name="pDiscount_">% Discount:</string>
+    <string name="before_discount_">Before Discount:</string>
+    <string name="qty">Qty</string>
+    <string name="printer_error">Printer Error</string>
+    <string name="test_printer_status">Test printer status</string>
+    <string name="test_printer">Test printer</string>
+    <string name="printer_offline_message">מדפסת לא מקוונת, בדוק חיבורי רשת</string>
+    <string name="customer_name">שם לקוח</string>
+    <string name="order_number"></string>
+    <string name="cash_money">מזומן</string>
+    <string name="total_quantity">סה\"כ כמות</string>
+    <string name="printer_offline_check_status">Printer is offline, please check printer status.</string>
+    <string name="copy_print">"Do you want to print a copy"</string>
+    <string name="work_with_models">Work with models</string>
+    <string name="copy">Copy</string>
+    <string name="original">Original</string>
+    <string name="_copy_">*Copy*</string>
+    <string name="_original_">*Original*</string>
+
+    <!-- new strings -->
+    <string name="you_want_to_print">Do you want to print?</string>
+    <string name="unable_to_get_a_valid_server_response_for_print">Unable to get a valid server response for print this cheque</string>
+    <string name="receipt">Receipt</string>
+    <string name="receipts">Receipts</string>
+    <string name="cheque_payment">Cheque payment</string>
+    <string name="cheque">Cheque</string>
+    <string name="scan_card">Scan Card</string>
+    <string name="login">Login</string>
+    <string name="demo">Demo</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="time_management">Time management</string>
+    <string name="time_management_and_time_reporting">Time management and time reporting</string>
+    <string name="worker">Worker</string>
+    <string name="hours_report">Hours report</string>
+    <string name="view_hour_report">View hour report</string>
+    <string name="send">Send</string>
+    <string name="year">Year</string>
+    <string name="target">Target</string>
+    <string name="orders">Orders</string>
+    <string name="today">Today</string>
+    <string name="this_week">This week</string>
+    <string name="this_month">This month</string>
+    <string name="list_of_all_items_balance">List of all items balance</string>
+    <string name="list_of_all_models_balance">List of all models balance</string>
+    <string name="the_pricing_list">The pricing list</string>
+    <string name="organization_field_must_not_be_empty">Organization field must not be empty!</string>
+    <string name="email_field_must_not_be_empty">Email field must not be empty!</string>
+    <string name="israel">Israel</string>
+
+    <string-array name="product_sort">
+        <item>Sort by Barcode</item>
+        <item>Sort by Name</item>
+        <item>Sort by Price</item>
+        <item>Sort by Code</item>
+    </string-array>
+    <string-array name="product_sort_models">
+        <item>Sort by Model code</item>
+        <item>Sort by Name</item>
+        <item>Sort by Price</item>
+        <item>Sort by Code</item>
+    </string-array>
+    <string-array name="product_filter_by_all_linked">
+        <item>All items</item>
+        <item>Linked items</item>
+    </string-array>
+    <string-array name="product_filter_by_all">
+        <item>All items</item>
+    </string-array>
+    <string-array name="meeting_status">
+        <item></item>
+        <item>Planned</item>
+        <item>Approved</item>
+        <item>Done</item>
+    </string-array>
+    <string-array name="meeting_type">
+        <item></item>
+        <item>Phone conversation</item>
+        <item>General</item>
+        <item>Demo</item>
+        <item>Training</item>
+        <item>Acquaintance</item>
+        <item>Sales</item>
+        <item>Marketing</item>
+        <item>Preservation</item>
+        <item>Service</item>
+        <item>Quarterly</item>
+    </string-array>
+    <string-array name="catalog_sort">
+        <item>Sort by Barcode</item>
+        <item>Sort by Name</item>
+    </string-array>
+    <string-array name="product_limit">
+        <item>Limit by none</item>
+        <item>Limit by Categories</item>
+        <item>Limit by Last Order</item>
+        <item>Limit by Last Month Orders</item>
+        <item>Limit by Last 3 Months Orders</item>
+        <item>Limit by Last 6 Months Orders</item>
+        <item>Last Year Orders</item>
+    </string-array>
+    <string-array name="price_list_limit">
+        <item>Limit by none</item>
+        <item>Limit by Categories</item>
+    </string-array>
+    <string-array name="new_account_sources">
+        <item>Newspaper Publicity</item>
+        <item>Internet Publicity</item>
+        <item>Google Search</item>
+        <item>Friend Turn</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="title_activity_brances">Brances Activity</string>
+    <string name="title_activity_time_report">TimeReportActivity</string>
+    <string name="title_activity_forgotpassword">Forgot password</string>
+
+    <!-- report activity-->
+    <string name="time_tracker_btn_action_in">In</string>
+    <string name="time_tracker_btn_action_out">Out</string>
+    <string name="time_tracker_btn_logout">Logout</string>
+
+</resources>

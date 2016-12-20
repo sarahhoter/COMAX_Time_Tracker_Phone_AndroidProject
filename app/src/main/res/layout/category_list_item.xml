@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_item"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:background="@drawable/grid_item"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:id="@+id/category_item_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="Test1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#555"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/category_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_weight="0"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="Test2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#555"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+<!--<view
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:clickable="false"
+    android:background="#aaa"
+    />-->
+</LinearLayout>

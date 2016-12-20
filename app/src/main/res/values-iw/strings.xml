@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">COMAX time tracker</string>
+    <!-- report activity-->
+    <string name="time_tracker_btn_action_in">כניסה</string>
+    <string name="time_tracker_btn_action_out">יציאה</string>
+    <string name="time_tracker_btn_logout">התנתק</string>
+    <string name="title_activity_brances">בחירת חברה</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="remember_login_details">זכור אותי</string>
+    <string name="remember_login_pass">זכור סיסמא</string>
+</resources>
