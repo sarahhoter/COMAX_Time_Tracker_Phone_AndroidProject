@@ -1,15 +1,32 @@
 package com.binasystems.mtimereporter.api.requests;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpVersion;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+import org.apache.http.params.HttpProtocolParams;
+import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 
 import android.util.Log;
 
+import com.binasystems.mtimereporter.TimeTrackerApplication;
 import com.binasystems.mtimereporter.api.requests.UniRequest.MyHttpPostTransfer;
+import com.binasystems.mtimereporter.utils.Utils;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpHeaders;
@@ -108,79 +125,6 @@ public class PostRequest {
 		
 		return null;
 	}
-	
-	static String mapToString(HashMap<String, Object> map){
-		if(map != null){
-			StringBuilder res = new StringBuilder();
-			res.append("{");
-			for(Entry<String, Object> e: map.entrySet()){
-				res.append(e.getKey())
-				.append("=")
-				.append(e.getValue())
-				.append(" ");
-			}
-			res.append("}");
-			
-			return res.toString();
-		}
-		return "null";
-	}
-	
-	static String executePostHttpRequest(String serverUrl, HashMap<String, Object> headersMap, HashMap<String, Object> paramsMap) throws Exception{
-		if(serverUrl != null){
-			HttpTransport transport = getHttpTransport();
-			HttpRequestFactory factory = transport.createRequestFactory();
-
-			try {
-				if(SHOW_LOGS){
-					Log.d("atf", "call url: " + serverUrl);
-					Log.d("atf", "\theaders: "+mapToString(headersMap));
-					Log.d("atf", "\tparams: "+mapToString(paramsMap));
-				}
-				
-				// url
-				GenericUrl url = new GenericUrl(serverUrl);
-
-				// content
-				if(paramsMap == null) 
-					paramsMap = new HashMap<String, Object>();
-				
-				encryptParams(paramsMap);
-				
-				UrlEncodedContent content = new UrlEncodedContent(paramsMap);
-				
-				// create request
-				HttpRequest httpPostRequest = factory.buildPostRequest(url, content);
-				
-				// add headers
-				if(headersMap != null){
-					HttpHeaders headers = new HttpHeaders();
-					headers.putAll(headersMap);
-					httpPostRequest.setHeaders(headers);
-				}
-				
-				com.google.api.client.http.HttpResponse response = httpPostRequest.execute();
-				int statusCode = response.getStatusCode();
-				Log.d("atf", "status code = " + statusCode);
-				
-				if(statusCode == 200){
-					String stringResponse = Encrypter.decrypt(response.parseAsString());
-					
-					if(SHOW_LOGS)
-						Log.d("Response: ", stringResponse);
-					
-					return stringResponse; 
-				}
-				
-			} catch (IOException e) {
-//				e.printStackTrace();
-				Log.e("atf", "", e);
-				error = DEFAULT_ERROR_MESSAGE;
-			}
-		}
-		return null;		
-	}
-
 	public static String executeNotEncrypted(String serverUrl, HashMap<String, Object> headersMap, HashMap<String, Object> paramsMap) throws Exception{
 		if(serverUrl != null){
 			HttpTransport transport = getHttpTransport();
@@ -228,6 +172,78 @@ public class PostRequest {
 			} catch (IOException e) {
 //				e.printStackTrace();
 				Log.e("atf", "", e);
+				error = DEFAULT_ERROR_MESSAGE;
+			}
+		}
+		return null;
+	}
+	static String mapToString(HashMap<String, Object> map){
+		if(map != null){
+			StringBuilder res = new StringBuilder();
+			res.append("{");
+			for(Entry<String, Object> e: map.entrySet()){
+				res.append(e.getKey())
+				.append("=")
+				.append(e.getValue())
+				.append(" ");
+			}
+			res.append("}");
+			
+			return res.toString();
+		}
+		return "null";
+	}
+	
+	static String executePostHttpRequest(String serverUrl, HashMap<String, Object> headersMap, HashMap<String, Object> paramsMap) throws Exception{
+		if(serverUrl != null){
+			if(SHOW_LOGS){
+				Log.d("atf", "call url: " + serverUrl);
+				Log.d("atf", "\theaders: "+mapToString(headersMap));
+				Log.d("atf", "\tparams: "+mapToString(paramsMap));
+			}
+
+			HttpParams params = new BasicHttpParams();
+			HttpConnectionParams.setTcpNoDelay(params, true);
+			HttpProtocolParams.setVersion(params, HttpVersion.HTTP_1_1);
+			HttpClient client = new DefaultHttpClient(params);
+			HttpPost post = new HttpPost(serverUrl);
+			post.addHeader("User-Agent", Utils.getUserAgent(TimeTrackerApplication.getInstance()));
+			try {
+
+				if(paramsMap != null){
+					encryptParams(paramsMap);
+				}
+
+				// add headers
+				if(headersMap != null){
+					for(Map.Entry<String, Object> param: headersMap.entrySet()){
+						post.addHeader(param.getKey(), (String) param.getValue());
+					}
+				}
+
+				if(paramsMap != null){
+					List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
+					for(Map.Entry<String, Object> parmEntry: paramsMap.entrySet()){
+						nameValuePairs.add(new BasicNameValuePair(parmEntry.getKey(),
+								(String) parmEntry.getValue()));
+					}
+					post.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+				}
+
+				HttpResponse response = client.execute(post);
+
+				if(response.getStatusLine().getStatusCode() == 200){
+					String stringResponse = EntityUtils.toString(response.getEntity(), "UTF-8");
+					stringResponse = Encrypter.decrypt(stringResponse);
+
+					if(SHOW_LOGS)
+						Log.d("Response: ", stringResponse);
+
+					return stringResponse;
+				}
+
+			} catch (IOException e) {
+				e.printStackTrace();
 				error = DEFAULT_ERROR_MESSAGE;
 			}
 		}

@@ -2,8 +2,6 @@ package com.binasystems.mtimereporter.utils;
 
 import android.os.Environment;
 
-import org.json.JSONObject;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -25,7 +23,7 @@ public class TraceLogWritter {
         executorService.submit(new LogWritter(log));
     }
 
-    static class LogWritter implements Runnable{
+    static class LogWritter implements Runnable {
 
         static SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd");
 

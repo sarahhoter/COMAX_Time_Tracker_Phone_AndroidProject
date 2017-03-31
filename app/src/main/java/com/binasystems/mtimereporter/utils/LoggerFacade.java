@@ -1,5 +1,6 @@
 package com.binasystems.mtimereporter.utils;
 
+
 import com.binasystems.mtimereporter.Constants;
 import com.splunk.mint.DataSaverResponse;
 import com.splunk.mint.Mint;
@@ -52,4 +53,5 @@ public class LoggerFacade {
     public static void leaveBreadcrumb(String breadcrumb){
         leaveBreadcrumb(breadcrumb, true);
     }
+
 }

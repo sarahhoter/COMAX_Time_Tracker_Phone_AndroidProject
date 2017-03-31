@@ -18,7 +18,7 @@ public class WaitDialog extends Dialog {
 				WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 		setCancelable(false);
 	}
-	
+
 	public void setMessage(String message){
 		((TextView)findViewById(R.id.txt_message)).setText(message);
 	}

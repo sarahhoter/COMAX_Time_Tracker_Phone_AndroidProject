@@ -36,7 +36,7 @@ public class BSLocationManager {
 		mHandler.postDelayed(locationUpdateListener, LOCATION_UPDATE_TIMEOUT);
 								
 		Location gpsLastLocation = mLocationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-		Location networkLastLocation = mLocationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);		
+		Location networkLastLocation = mLocationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
 
 		if(gpsLastLocation != null && networkLastLocation != null){
 			if(isBetterLocation(gpsLastLocation, networkLastLocation)){				
@@ -51,7 +51,7 @@ public class BSLocationManager {
 		}
 		
 		try {
-			mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, LOCATION_UPDATE_TIME, 0, locationUpdateListener);
+			mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,LOCATION_UPDATE_TIME,0,locationUpdateListener);
 			mLocationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, LOCATION_UPDATE_TIME, 0, locationUpdateListener);
 		} catch (Exception e) {
 			if(callback != null){
@@ -65,7 +65,7 @@ public class BSLocationManager {
 	}
 	
 	public boolean isLocationServiceEnabled(){
-		return (mLocationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) || 
+		return (mLocationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) ||
 				mLocationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER));
 	}
 		
@@ -129,7 +129,7 @@ public class BSLocationManager {
 	 * This class return in {@link LocationCallback} location or null, 
 	 * if location not received by timeout. 
 	 */
-	class TimeoutLocationUpdateListener implements Runnable, LocationListener{
+	class TimeoutLocationUpdateListener implements Runnable, LocationListener {
 		LocationCallback callback;
 
 		public TimeoutLocationUpdateListener(LocationCallback callback) {

@@ -9,12 +9,11 @@ import org.apache.http.client.methods.HttpPost;
 import android.util.Log;
 
 import com.binasystems.mtimereporter.objects.Attribute;
-import com.binasystems.mtimereporter.objects.Category;
+import com.binasystems.mtimereporter.objects.Branch;
 import com.binasystems.mtimereporter.objects.Customer;
-import com.binasystems.mtimereporter.objects.OrderDetailParams;
 import com.binasystems.mtimereporter.objects.Product;
+import com.binasystems.mtimereporter.objects.Project;
 import com.binasystems.mtimereporter.objects.Status;
-import com.binasystems.mtimereporter.objects.Supplier;
 
 /**
  * Class used for collect httpPost headers and parameters.<br>
@@ -31,7 +30,7 @@ import com.binasystems.mtimereporter.objects.Supplier;
 public class UniRequest {
 	
 	public static class MyHttpPostTransfer extends HttpPost{
-
+		
 		HashMap<String, Object> mParams;
 		HashMap<String, Object> mHeaders;
 
@@ -66,24 +65,73 @@ public class UniRequest {
 		}
 	}
 	
-//	/*
-//	 * Credentials
-//	 */
-//	public static String LkC = "";
-//	public static String SwSQL = "";
-//	public static String UserC = "";
-//	public static String LogC = "";
-//	public static String StoreC = "";
+	/*
+	 * Credentials
+	 */
+	public static String LkC = "";
+	public static String SwSQL = "";
+	public static String UserC = "";
+	public static String LogC = "";
+	public static Integer Super =0;
+	public static Integer SwBlockToBuyPrices = 0;
+	public static String UserName = "";
+	
+	/*
+	 * Work with models
+	 */
+	public static boolean workWithModels = false;
+	
+	/*
+	 * Branch
+	 */
+
+	public static Branch store = null;
+	public static String dep = null;
+	public static String agent = null;
 
 
-//	/*
-//	 * Branch
-//	 */
-//	public static Category branch = null;
+	/*
+	 * Customer
+	 */
+	public static Customer customer = null;
+	public static String getCustomerCode(){
+		return customer != null ? customer.getCode() : "0";
+	}
 
+	/*
+	 * Product
+	 */
+	public static Product product = null;
+	public static Project project = null;
+
+	/*
+	 * Permisions
+	 */
+	public static final short USER = 1;
+	public static final short ADMIN = 2;
+
+	/*
+	 * Array list of last selected customers
+	 */
+	public static ArrayList<Customer> lastCustomers = new ArrayList<Customer>();
+
+	public static ArrayList<Status> statuses = null;
+	public static ArrayList<Attribute> attributes = null;
+
+	public static short role = USER;
+	public static boolean[][] access = new boolean[9][10];
+
+	static {
+
+		for (int i = 0; i < access.length; i++)
+			for (int j = 0; j < access.length; j++)
+				access[i][j] = false;
+
+	}
+
+//	private ArrayList<BasicNameValuePair> postLS;
 	private String url = null;
-
-
+	
 	private HashMap<String, Object> mHeadersMap;
 	private HashMap<String, Object> mParamsMap;
 
@@ -184,7 +232,23 @@ public class UniRequest {
 //		}
 //		return post;
 //	}
+	
+	public static boolean isLogged() {
+		if (LkC == null || LkC.isEmpty() || SwSQL == null || SwSQL.isEmpty()
+				|| UserC == null || UserC.isEmpty())
+			return false;
 
+		return true;
+
+	}
+
+//	public static boolean isOnBranch() {
+//		if (branch == null)
+//			return false;
+//
+//		return true;
+//	}
+//
 //	public static void logout() {
 //		LkC = "";
 //		SwSQL = "";
@@ -204,14 +268,5 @@ public class UniRequest {
 		HttpPost post = new MyHttpPostTransfer(getUrl(), getHttpHeadersMap(), getHttpParamsMap());
 		return post;
 	}
-
-	@Override
-	public String toString() {
-		return "UniRequest{" +
-				"url='" + url + '\'' +
-				", mHeadersMap=" + mHeadersMap +
-				", mParamsMap=" + mParamsMap +
-				'}';
-	}
-
+	
 }

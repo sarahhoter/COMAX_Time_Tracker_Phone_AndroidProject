@@ -11,13 +11,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.widget.Toast;
 
-import com.binasystems.mtimereporter.TimeTrackerApplication;
-import com.binasystems.mtimereporter.utils.LoggerFacade;
-import com.binasystems.mtimereporter.R;
 import com.binasystems.mtimereporter.activity.CategorySelectActivity;
 import com.binasystems.mtimereporter.dialog.WaitDialog;
 import com.binasystems.mtimereporter.objects.Category;
-import com.binasystems.mtimereporter.utils.UserCredintails;
+import com.binasystems.mtimereporter.R;
 
 /**
  * 
@@ -29,17 +26,15 @@ public class LoadCategoriesTask extends BaseAsyncTask<String> {
 
 	private WaitDialog loading = null;
 	private Context context = null;
-	UserCredintails userCredintails;
 
 	public LoadCategoriesTask(Context context) {
-
+			super(context);
 		this.context = context;
 
-	}
+	};
 
 	@Override
 	protected void onPreExecute() {
-		userCredintails = UserCredintails.getInstance(TimeTrackerApplication.getInstace());
 		loading = new WaitDialog(context);
 		loading.show();
 
@@ -53,19 +48,19 @@ public class LoadCategoriesTask extends BaseAsyncTask<String> {
 		if(params.length > 0){
 			query = params[0];
 		}
+
 		ur = new UniRequest("Organization/Companies.aspx", "table");
-		ur.addLine("Lk", userCredintails.LkC);
-		ur.addLine("SwSQL", userCredintails.SwSQL);
-		ur.addLine("UserC", userCredintails.UserC);
+		ur.addLine("Lk", UniRequest.LkC);
+		ur.addLine("SwSQL", UniRequest.SwSQL);
+		ur.addLine("UserC", UniRequest.UserC);
 		ur.addLine("Sort", "Kod");
 		if(query != null){
-			ur.addLine("q", query);
+			ur.addLine("q", query);	
 		}
-        LoggerFacade.leaveBreadcrumb("LoadCategoriesTask: request=" + ur);
+		
 		String data;
 		try {
 			data = PostRequest.executeRequestAsStringResult(ur);
-            LoggerFacade.leaveBreadcrumb("LoadCategoriesTask: response=" + data);
 			postDataBackgroundHandleResult(data);
 			return data;
 		} catch (Exception e) {
@@ -110,6 +105,7 @@ public class LoadCategoriesTask extends BaseAsyncTask<String> {
 					category = categories_list.getJSONObject(i);
 
 					categories_object_list.add(new Category(category));
+
 				}
 
 				publishProgress(new Runnable() {
@@ -126,10 +122,18 @@ public class LoadCategoriesTask extends BaseAsyncTask<String> {
 					
 					@Override
 					public void run() {
+						//TODO??? copy/pasted from inital code. In initial code, not show toast
+						Toast.makeText(
+								context,
+								context.getResources().getString(
+										R.string.load_categories_fail),
+								Toast.LENGTH_SHORT);
+
 						((Activity) context).finish();
 					}
 				});
 			}
+
 		}
 	}
 
@@ -137,10 +141,7 @@ public class LoadCategoriesTask extends BaseAsyncTask<String> {
 	@Override
 	protected void onPostExecute(String result) {
 		super.onPostExecute(result);
-		try{
-			loading.dismiss();
-		} catch(Exception e){						
-		}
+		loading.dismiss();
 	}
 
 }

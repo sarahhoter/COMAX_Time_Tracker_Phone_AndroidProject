@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">COMAX time tracker</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
     <string name="icon_grid">&#xf00a;</string>
     <string name="icon_list">&#xf0c9;</string>
 
@@ -16,16 +15,14 @@
         <item>English</item>
         <item>Русский</item>
     </string-array>
-    
-    <string name="login_incorect">Login was unsuccessful.\nWrong input</string>
-    <string name="error">Error</string>
-    <string name="load_categories_fail">Error while load categories</string>
+
+
 
     <string name="printer_unavailable_versionApi">Sorry, your Android version does not support printing, please upgrade it to Android KITKAT (4.4).</string>
     <string name="modelDetail">Model detail</string>
     <string name="language">Language</string>
     <string name="new_proposal">New proposal</string>
-    <string name="choose_customer">Choose customer</string>
+
     <string name="choose_store">Choose store</string>
     <string name="choose_project">Choose project</string>
     <string name="choose_date">Click here to choose a date</string>
@@ -35,17 +32,18 @@
     <string name="monthly_sales_title">Monthly Sales</string>
     <string name="monthly_sales"><u>Monthly Sales</u></string>
     <string name="proposal_details">Proposal details</string>
-    <string name="project">Project</string>
+
     <string name="remove">Remove</string>
     <string name="total_balance">Total balance</string>
     <string name="order_by_customer">Order by customer</string>
     <string name="order_from">Order from</string>
     <string name="order_from_suppliers">Order from suppliers</string>
-    <string name="lines">Lines</string>
+
     <string name="enclosures">Enclosures</string>
     <string name="preview">Preview</string>
     <string name="balance_models">Balance models</string>
     <string name="items">Items</string>
+
     <string name="list_of_all_items">List of all items</string>
     <string name="list_of_all_orders">List of all orders</string>
     <string name="items_balance">Items balance</string>
@@ -56,18 +54,15 @@
     <string name="menu_inventory_description">List of all inventory orders</string>
     <string name="please_select_customer_first">Please select customer first.</string>
     <string name="press_here_to_select">Press here to select</string>
-    <string name="until">Until</string>
+
+
     <string name="all">All</string>
     <string name="more">More</string>
     <string name="search_customer">Search Customer</string>
     <string name="serial_item">Serial Item</string>
     <string name="open_date">Open Date</string>
     <string name="phone_number">Phone Number</string>
-    <string name="next">Next</string>
-    <string name="ok">Ok</string>
-    <string name="cancel">Cancel</string>
-    <string name="months">Months</string>
-    <string name="days">Days</string>
+
     <string name="hours">Hours</string>
     <string name="calls">Calls</string>
     <string name="debts">Debts</string>
@@ -99,7 +94,7 @@
     <string name="attribute">Attribute</string>
     <string name="care_by">Care by</string>
     <string name="making_note">Making note</string>
-    <string name="description">Description</string>
+
     <string name="none">None</string>
     <string name="service_list">Service list</string>
     <string name="today_calls_by_hours">Today calls by hours</string>
@@ -107,9 +102,9 @@
     <string name="this_year_calls">This year calls</string>
     <string name="new_call">New Call</string>
     <string name="list">List</string>
-    <string name="sum">Sum</string>
+
     <string name="price_netto">Price Netto</string>
-    <string name="item">Item</string>
+
     <string name="number">number</string>
     <string name="invoice_type">Invoice type</string>
     <string name="return_invoices">Return invoices</string>
@@ -125,13 +120,12 @@
     <string name="item_">Item:</string>
     <string name="items_">Items:</string>
     <string name="sub_group">Sub group</string>
-    <string name="department">Department</string>
-    <string name="supplier">Supplier</string>
+
     <string name="info">Info</string>
     <string name="archive">Archive</string>
     <string name="block_procurements">Block for procurement</string>
     <string name="catalog_funnel">Catalog funnel</string>
-    <string name="fax">Fax</string>
+
     <string name="account_movements_query">Account movements query</string>
     <string name="number_for_order">Number for order: </string>
     <string name="card_company">Card company</string>
@@ -162,8 +156,7 @@
     <string name="sales_details_workers">Workers:</string>
     <string name="sales_details_last_time">Last time:</string>
     <string name="sales_details_profit">Profit:</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
+
     <string name="you_want_to_print_this_order">You want to print this order?</string>
     <string name="you_want_to_print_this_return_invoice">You want to print this return invoice?</string>
     <string name="you_want_to_print_this_receipt">You want to print this receipt?</string>
@@ -177,7 +170,8 @@
     <string name="yesterday">Yesterday</string>
     <string name="profit">Profit</string>
     <string name="workers">Workers</string>
-    <string name="branch">Branch</string>
+
+
     <string name="clear">Clear</string>
     <string name="clear_b"><b>Clear</b></string>
     <string name="receipts_list">Receipts list</string>
@@ -189,12 +183,11 @@
     <string name="cumulative_sales">Cumulative sales</string>
     <string name="all_cumulative_sales">List of all cumulative sales</string>
     <string name="customers_orders">Customers orders</string>
-    <string name="new_invoice">New Invoice</string>
+
     <string name="new_shipping_document">New Shipping Document</string>
     <string name="new_refund_certificate">New Refund Certificate</string>
     <string name="month">Month</string>
-    <string name="by_value_date">By value date</string>
-    <string name="by_document_date">By document date</string>
+
     <string name="order_by">Order by</string>
     <string name="revenue">Revenue</string>
     <string name="payments">Payments</string>
@@ -208,20 +201,21 @@
     <string name="dates">Dates</string>
     <string name="alternate_account">Alternate account</string>
     <string name="account">Account</string>
-    <string name="document_type">Document type</string>
+
     <string name="invoice_details">Invoice details</string>
     <string name="return_invoice_details">Return invoice details</string>
     <string name="new_return_invoice">New return invoice</string>
     <string name="payment_day">Payment D.</string>
-    <string name="balance">Balance</string>
+
     <string name="ref">Ref</string>
     <string name="p_date">P.date</string>
     <string name="customer_price_list">Customer price list</string>
     <string name="fill_empty_fields">Please fill empty fields.</string>
-    <string name="agent">Agent</string>
-    <string name="phone">Phone</string>
+
     <string name="street_and_number">Street and number</string>
-    <string name="city">City</string>
+
+
+
     <string name="company_id">Company ID</string>
     <string name="code">Code</string>
     <string name="update_customer">Update customer</string>
@@ -229,18 +223,16 @@
     <string name="orders_list">Orders list</string>
     <string name="inventory_list">Inventory orders</string>
     <string name="vat"> 18.00 % VAT</string>
-    <string name="document">Document</string>
+
     <string name="netto_price">Netto price</string>
     <string name="or">or</string>
-    <string name="departments">Departments</string>
+
     <string name="groups">Groups</string>
     <string name="limit_by">Limit by</string>
     <string name="no_item">Sorry, no item found.</string>
     <string name="no_prev_item">Sorry, no previous item.</string>
     <string name="no_next_item">Sorry, no next item.</string>
-    <string name="category_select_activity_title">Select company &amp; branch</string>
-    <string name="meeting">Meeting</string>
-    <string name="store">Store</string>
+
     <string name="all_status">All status</string>
     <string name="all_attribute">All attribute</string>
     <string name="date_service">Date service</string>
@@ -251,17 +243,16 @@
     <string name="green_to_gray">Green to Gray</string>
     <string name="password_recovery">Password recovery</string>
     <string name="commax_employees_will_never">Commax employees will never ask for your password and user code \nWhen the system requests password change it is important to choose unpredictable password each time.</string>
-    <string name="remember_login_details">Remember me</string>
-    <string name="remember_login_pass">Remember Password</string>
+
     <string name="forgot_password">Forgot password?</string>
     <string name="create_new_account">Create new account</string>
-    <string name="group">Group</string>
+
     <string name="meetings">Meetings</string>
     <string name="all_meetings">List of all meetings</string>
     <string name="shipping_docs">Shipping documents</string>
     <string name="shipping_doc">Shipping document</string>
     <string name="invoice">Invoice</string>
-    <string name="refund_certificates">Refund certificates</string>
+
     <string name="refund_certificate_details">Refund certificate details</string>
     <string name="shipping_details">Shipping document details</string>
     <string name="invoices">Invoices</string>
@@ -269,54 +260,61 @@
     <string name="new_order">New order</string>
     <string name="new_inventory_order">New inventory order</string>
     <string name="existing_orders">Orders</string>
+
     <string name="price_list">Price list</string>
     <string name="aging_debts">Aging Debts</string>
-    <string name="open_invoices">Open invoices</string>
-    <string name="send_email">Send email</string>
+
     <string name="print">Print</string>
     <string name="card_index">Card index</string>
-    <string name="update">Update</string>
-    <string name="date">Date</string>
-    <string name="time">Time</string>
-    <string name="type">Type</string>
-    <string name="remark">Remark</string>
+
+    <string-array name="date_by">
+        <item> מסמך </item>
+        <item> פרעון </item>
+
+    </string-array>
+
     <string name="new_meeting">New meeting</string>
+
     <string name="add_new_meeting">Add new meeting</string>
     <string name="follow_up_at">Follow up at</string>
-    <string name="hour">Hour</string>
+
     <string name="who">Who</string>
-    <string name="status">Status</string>
     <string name="duration">Duration</string>
     <string name="where">Where</string>
     <string name="send_mail">Send mail</string>
     <string name="summary">Summary</string>
     <string name="back">Back</string>
-    <string name="done">Done</string>
+
+
+
+    <string name="received">received</string>
+
     <string name="order_details">Order details</string>
     <string name="inventory_order_details">Inventory order details</string>
     <string name="customer">Customer</string>
-    <string name="from_store">From store</string>
+
     <string name="to_store">To store</string>
     <string name="customer_">Customer:</string>
     <string name="details">Details</string>
     <string name="delivery_date">Delivery date</string>
-    <string name="barcode">Barcode</string>
-    <string name="name">Name</string>
-    <string name="quantity">Quantity</string>
+
+
     <string name="price">Price</string>
     <string name="price_">Price:</string>
     <string name="dis">%Dis.</string>
     <string name="discount">% Discount</string>
     <string name="money">Money</string>
     <string name="amount">Amount</string>
-    <string name="total">Total</string>
+
     <string name="sortBy">Sort by (</string>
     <string name="itemDetail">Item detail</string>
     <string name="priceHistory"><u>Price history</u></string>
     <string name="salesHistory"><u>Sales history</u></string>
     <string name="priceHistoryTitle">Price history</string>
     <string name="salesHistoryTitle">Sales history</string>
-    <string name="signature">Signature</string>
+
+
+
     <string name="signature_">Signature:</string>
     <string name="signature_underline"><u>Signature</u></string>
     <string name="place_for_the_signature">Place for the signature</string>
@@ -330,10 +328,10 @@
     <string name="remarks">Remarks</string>
     <string name="register">Register</string>
     <string name="from">From</string>
-    <string name="line">Line</string>
+
     <string name="to_print_a_copy">To print a copy?</string>
     <string name="proposals">הצעות מחיר</string>
-    <string name="refund_certificate">Refund certificate</string>
+
     <string name="shipping_document">Shipping document</string>
     <string name="total_items">סה\"כ פריטים</string>
     <string name="total_money">סה\"כ סכום</string>
@@ -350,9 +348,9 @@
     <string name="test_printer_status">Test printer status</string>
     <string name="test_printer">Test printer</string>
     <string name="printer_offline_message">מדפסת לא מקוונת, בדוק חיבורי רשת</string>
-    <string name="customer_name">שם לקוח</string>
+
     <string name="order_number"></string>
-    <string name="cash_money">מזומן</string>
+
     <string name="total_quantity">סה\"כ כמות</string>
     <string name="printer_offline_check_status">Printer is offline, please check printer status.</string>
     <string name="copy_print">"Do you want to print a copy"</string>
@@ -392,6 +390,8 @@
     <string name="email_field_must_not_be_empty">Email field must not be empty!</string>
     <string name="israel">Israel</string>
 
+
+
     <string-array name="product_sort">
         <item>Sort by Barcode</item>
         <item>Sort by Name</item>
@@ -430,6 +430,7 @@
         <item>Service</item>
         <item>Quarterly</item>
     </string-array>
+
     <string-array name="catalog_sort">
         <item>Sort by Barcode</item>
         <item>Sort by Name</item>
@@ -455,13 +456,315 @@
         <item>Other</item>
     </string-array>
 
-    <string name="title_activity_brances">Brances Activity</string>
+
+
+
+    <string name="title_activity_location">Choose location</string>
+
     <string name="title_activity_time_report">TimeReportActivity</string>
     <string name="title_activity_forgotpassword">Forgot password</string>
+    <string name="title_activity_main_menu">Menu</string>
 
+
+    <!-- sales module-->
+
+    <string name="no_data">No data</string>
+
+
+    <string name="sales_details_transaction_average_dep">transactions in an avarage sum:</string>
     <!-- report activity-->
-    <string name="time_tracker_btn_action_in">In</string>
-    <string name="time_tracker_btn_action_out">Out</string>
-    <string name="time_tracker_btn_logout">Logout</string>
 
+    <string name="sales_details_transaction_counter">עסקאות</string>
+    <string name="nis"> ש\""ח </string>
+    <!--<string name="sales_details_transaction_average">עסקה ממוצעת:</string>-->
+    <string name="branch">תאריך</string>
+    <string name="sales">מכירות</string>
+    <string name="mivzaim">מבצעים</string>
+    <string name="time">דיווח שעות</string>
+    <string name="prices">בדיקת מחירים</string>
+    <string name="definitions">הגדרות</string>
+    <string name="exit">יציאה</string>
+    <string name="add_action">הוספת פעילות</string>
+    <string name="prts">פריטים</string>
+    <string name="prts_check">בדיקת מחירי מדף</string>
+    <string name="prts_photo">צילום פריטים</string>
+    <string name="action">פעילויות</string>
+    <string name="action_details">פרטי פעילות</string>
+    <string name="customer_employee">שם לקוח/ שם עובד</string>
+    <string name="customerss">לקוחות</string>
+    <string name="stocktaking">ספירת מלאי</string>
+    <string name="action_settings">Settings</string>
+    <string name="category_select_activity_title">Select company &amp; branch</string>
+    <string name="certificate_login">תעודות כניסה</string>
+
+    <string name="edi">EDI</string>
+    <string name="customer_name">שם לקוח</string>
+    <string name="certificate_login_title">תעודת כניסה</string>
+    <string name="add_certificate_login_title">הוספת תעודת כניסה</string>
+    <string name="certificate_login_title_edi">תעודת כניסה בגין EDI</string>
+    <string name="suppliers_order">הזמנת ספק</string>
+    <string name="certificate_login_mega_title">תעודת כניסה מגה</string>
+    <string name="search_supplier_hint">הכנס שם/קוד ספק או ברקוד פריט</string>
+
+    <string name="supper">מנהל מערכת</string>
+    <string name="normal">רגיל</string>
+    <string name="alll">הכל</string>
+    <string name="allowed">מורשה</string>
+    <string name="no_allowed">לא מורשה</string>
+    <string name="blocked">חסום!!</string>
+    <string name="blocked_for_store">חסום למחסן!!</string>
+    <string name="for_store">למחסן</string>
+    <string name="not_givoon">לא בגיוון!!</string>
+    <string name="title_activity_brances">בחר חברה</string>
+    <string name="title_activity_stores">בחר מחסן</string>
+    <string name="title_activity_prt">בחר פריט</string>
+    <string name="store">מחסן</string>
+    <string name="from_store">ממחסן</string>
+
+    <string name="open_invoice">חשבוניות פתוחות</string>
+    <string name="by_doc">לפי תאריך</string>
+    <string name="balance">יתרת כרטיס:</string>
+    <string name="payment_balance">יתרה לתשלום:</string>
+    <string name="_balance">יתרה</string>
+    <string name="_balance_field">יתרה:</string>
+    <string name="condition_payment">תנאי תשלום:</string>
+    <string name="all_sum">סה\""כ:</string>
+    <string name="title_activity_customers">לקוח</string>
+    <string name="customers">לקוח:</string>
+    <string name="title_activity_project">פרויקט</string>
+    <string name="project">פרויקט:</string>
+    <string name="projectTitle">פרויקט</string>
+    <string name="title_activity_chance">הזדמנות</string>
+    <string name="chance">הזדמנות:</string>
+    <string name="signature">חתימה:</string>
+    <string name="title_activity_date">תאריך</string>
+    <string name="properties">פרטים</string>
+
+    <string name="title_activity_type">סוג</string>
+    <string name="title_activity_status">סטטוס</string>
+    <string name="title_activity_treatment_date">לטיפול בתאריך</string>
+    <string name="treatment_date">לטיפול בתאריך</string>
+    <string name="treatment_in">לטיפול ב-</string>
+    <string name="status">סטטוס:</string>
+    <string name="title_activity_close">סגירה</string>
+    <!-- report activity-->
+    <string name="time_tracker_btn_action_in">כניסה</string>
+    <string name="msgLogout">האם אתה בטוח שברצונך להתנתק?</string>
+    <string name="cancel">ביטול</string>
+    <string name="open_invoices">חשבוניות פתוחות</string>
+    <string name="done">אישור</string>
+    <string name="make">ההוספה בוצעה בהצלחה</string>
+    <string name="the_certificate_was_received">התעודה נקלטה</string>
+    <string name="stocktaking_received">ספירה נקלטה</string>
+
+    <string name="the_image_received">התמונה נקלטה</string>
+    <string name="not_choose_image">לא נבחרה תמונה</string>
+    <string name="not_choose_item">לא סומנו פריטים</string>
+    <string name="msg_no_match_found">לא נמצאה התאמה</string>
+    <string name="prt_exist_in_list">פריט קיים .\n האם ברצונך להוסיף כמות?</string>
+    <string name="msg_add_to_doc"> האם להוסיף למסמך?</string>
+    <string name="msg_no_found_in_givun">פריט לא נמצא בגיוון הספק</string>
+    <string name="msg_prt_in_archive">פריט בארכיון</string>
+    <string name="msg_prt_hasum">פריט חסום</string>
+    <string name="msg_prt_hasum_to_rechesh">פריט חסום לרכש</string>
+    <string name="bigger">כמות ביקורת שונה, האם להמשיך?</string>
+    <string name="msg_must_sign">חובת חתימה</string>
+    <string name="doc_exsist">אסמכתא קיימת</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="day">יום</string>
+    <string name="date">תאריך</string>
+    <string name="select_img">בחר תמונה</string>
+    <string name="date_no_title">תאריך:</string>
+    <string name="sumClose">סכום סגירה</string>
+    <string name="presentClose">% סגירה</string>
+    <string name="present">נוכחים</string>
+    <string name="description_field">תאור:</string>
+    <string name="description">תאור</string>
+    <string name="location">מיקום</string>
+    <string name="next">המשך</string>
+    <string name="update">עדכון</string>
+    <string name="ok_msg">אישור</string>
+    <string name="msg_update_line">יעדכן שורה?</string>
+    <string name="obligation">קליטה</string>
+    <string name="refund_certificate">תעודת החזר</string>
+    <string name="transfer_certificate">תעודת העברה</string>
+    <string name="add_transfer_certificate">הוספת תעודת העברה</string>
+    <string name="save">שמירה</string>
+    <string name="ok_obligation">אישור קליטה</string>
+    <string name="sum">סיכום</string>
+    <string name="summ">סכום:</string>
+    <string name="sum_title">סכום</string>
+    <string name="hour">שעה:</string>
+    <string name="hour_title">שעה</string>
+    <string name="employee_name">שם עובד:</string>
+    <string name="name">שם</string>
+    <string name="name_item">שם פריט</string>
+    <string name="itemSuper">המשך בלי בחירה</string>
+    <string name="hour_s">משך בשעות</string>
+    <string name="months">חודשים</string>
+    <string name="phone">נייד</string>
+    <string name="city">עיר</string>
+    <string name="address">כתובת</string>
+    <string name="quantity_stock">כמות מלאי</string>
+    <string name="quantity_review">כמות ביקורת</string>
+    <string name="quantity_view">כמות בתצוגה</string>
+
+    <string name="quantity_month">מכר חודשי ממוצע</string>
+    <string name="quantity_last_week">מכר בשבוע שעבר</string>
+    <string name="quantity_procument">כמות מומלצת</string>
+    <string name="sales_expected">צפי מכירות</string>
+    <string name="supplier_open_orders">הזמנות ספק פתוחות</string>
+    <string name="remark">הערה</string>
+    <string name="red_stamp">חותמת אדומה</string>
+    <string name="quantity">כמות</string>
+    <string name="supak">סופק</string>
+    <string name="supak_field">סופק:</string>
+    <string name="back_cause">סיבות החזר</string>
+    <string name="quantity_filed">כמות:</string>
+    <string name="quantity_amara_filed">כמות המרה:</string>
+    <string name="amara_filed">המרה</string>
+    <string name="prt_amara">המרה לפריט:</string>
+
+    <string name="item">פריט</string>
+    <string name="line">שורה</string>
+    <string name="barcode">ברקוד</string>
+    <string name="update_line">עדכון שורה</string>
+    <string name="insert_line">הוספת שורה</string>
+    <string name="telphone">טלפון</string>
+    <string name="call"><u>חיוג</u></string>
+    <string name="by_document_date">לפי תאריך מסמך</string>
+    <string name="by_value_date">לפי תאריך פרעון</string>
+    <string name="document_date">תאריך מסמך</string>
+    <string name="document_value">פרעון</string>
+    <string name="choose_customer">בחר לקוח</string>
+    <string name="document_type">סוג:</string>
+    <string name="document">מסמך</string>
+    <string name="documentt">אסמכתא</string>
+    <string name="lines">שורות</string>
+    <string name="until">עד:</string>
+    <string name="until2">עד</string>
+    <string name="supplier">ספק</string>
+    <string name="driver">נהג</string>
+    <string name="car_num">מס. רכב</string>
+    <string name="supplier_field">ספק:</string>
+    <string name="choose_supplier">בחר ספק</string>
+
+    <string name="department">מחלקה:</string>
+    <string name="departmentPrt">מחלקה</string>
+    <string name="meeting">פרטי פגישה</string>
+    <string name="group">קבוצה</string>
+    <string name="group_field">קבוצה:</string>
+    <string name="groupPrt">קבוצה</string>
+    <string name="email">מייל</string>
+    <string name="subgroup">ק. משנה</string>
+    <string name="type">סוג:</string>
+    <string-array name="typeArray">
+        <item> הדגמה </item>
+        <item> הדרכה </item>
+        <item> היכרות </item>
+        <item> מכירה </item>
+        <item> פגישה כללית </item>
+        <item> שיווק </item>
+        <item> שיחה טלפונית </item>
+        <item> שימור </item>
+        <item> שרות </item>
+        <item> רבועונית </item>
+        <item> מכירה מגבילה </item>
+        <item> נחיתה מגבילה </item>
+        <item> מכירה לקוח רדום </item>
+        <item> נחיתה לקוח רדום </item>
+        <item> ברוך הבא </item>
+        <item> אחר </item>
+    </string-array>
+    <string-array name="stasusArray">
+        <item> פתוח </item>
+        <item> סגור </item>
+        <item> הכל </item>
+    </string-array>
+    <string-array name="programs">
+        <item> דיווח שעות </item>
+        <item> תצוגת דיווחים </item>
+        <item> פעילויות </item>
+        <item> הוספת פעילות </item>
+    </string-array>
+    <string-array name="statusArray">
+        <item> תכנון </item>
+        <item> אושר </item>
+        <item> בוטל </item>
+        <item> בוצע </item>
+
+
+    </string-array>
+    <string name="login_incorect">הכניסה לא הצליחה.\n שגיאת כניסה</string>
+    <string name="ok">נסה שוב</string>
+    <string name="o_k">אישור</string>
+
+    <string name="error">שגיאה</string>
+    <string name="transfer_certificates">תעודת החזר</string>
+    <string name="refund_certificates">תעודת החזר</string>
+    <string name="request_fail">בקשה נכשלה</string>
+    <string name="hasmachta_used">אסמכתא בשימוש</string>
+    <string name="price_not_exist">מחיר לא נמצא</string>
+    <string name="cause_required">חובה סיבת החזר</string>
+    <string name="send_email">שליחת מייל</string>
+    <string name="order_saved">הזמנה נשמרה</string>
+    <string name="order_save"> ישנה הזמנה שמורה האם אתה מעוניין בה?</string>
+    <string name="delete"> למחוק מסמך?</string>
+    <string name="msg_certificate_not_finished">קיימת תעודה שלא הסתיימה, האם להמשיך אותה?</string>
+    <string name="alert">הודעה</string>
+    <string name="ask">פנה לתמיכה</string>
+    <string name="use">משתמש</string>
+    <string name="typeUse">סוג</string>
+    <string name="allowed_store">מורשה לסניפים</string>
+    <string name="allowed_prices">מחיר קניה</string>
+    <string name="display_stores">תצוגת סניף</string>
+    <string name="time_tracker_btn_action_out">יציאה</string>
+    <string name="time_tracker_btn_logout">התנתק</string>
+    <string name="load_item_details_fail">שגיאה בטעינת פרטי פריט</string>
+    <string name="msgBarcodeNotValid">ברקוד חובה</string>
+    <string name="scan_barcode_or_kod">סרוק ברקוד או קוד ספק</string>
+    <string name="txtNis">ש\""ח</string>
+    <string name="msgBarcodeNotExist">ברקוד לא קיים</string>
+    <string name="the_doc_is_exist">אסמכתא קיימת</string>
+    <string name="txtTo">ל-</string>
+    <string name="Play">סקנר</string>
+    <string name="barcode2">הקש/י ברקוד</string>
+    <string name="scan_barcode">הקש/י ברקוד</string>
+    <string name="scan_barcode_prt"> הקלד ברקוד </string>
+    <string name="unit_price">מחיר ליח. מידה</string>
+    <string name="Search">ביצוע חיפוש</string>
+    <string name="sales_price">מחיר </string>
+    <string name="total">שעות</string>
+    <string name="contribution">תרומה</string>
+    <string name="cash_money">עבודה</string>
+    <string name="card">חופשה</string>
+    <string name="other">אחר</string>
+    <string name="sales_by_date">מכירות לפי תאריך</string>
+    <string name="avg_deal">ע. ממוצעת</string>
+    <string name="general">כללי</string>
+    <string name="sales_by_store">מכירות לפי חנות</string>
+    <string name="list_of_all_sales_by_date">רשימת כל המכירות לפי תאריך</string>
+    <string name="list_of_all_sales_stores">רשימת כל המכירות לפי חנות</string>
+    <string name="sale_card_value">חופשה %s</string>
+    <string name="sale_check_value">אחר %s</string>
+    <string name="sale_cash_value">עבודה %s</string>
+    <string name="sale_week">שבוע  %s</string>
+    <string name="sale_month">חודש  %s</string>
+    <string name="sale_year">שנת  %s</string>
+    <string name="remember_login_details">זכור אותי</string>
+    <string name="remember_pass">זכור סיסמא</string>
+    <string name="action_select_date">תאריך</string>
+    <string name="sales_by_dep">מכירות לפי מחלקה</string>
+    <string name="sales_by_agent">מכירות לפי סוכנים / מוכרים</string>
+    <string name="agent">סוכן</string>
+    <string name="agents">סוכנים</string>
+    <string name="Department">מחלקה</string>
+    <string name="departments">מחלקות</string>
+    <string name="sales_details_transaction_average">עסקאות בסכום ממוצע :</string>
+    <string name="select_date">בחירת תאריך</string>
+    <string name="select_month">בחירת חודש</string>
+    <string name="select_year">בחירת שנה</string>
+    <string name="supplier_not_found">ספק לא נמצא</string>
+    <string name="load_categories_fail">loading failed</string>
 </resources>

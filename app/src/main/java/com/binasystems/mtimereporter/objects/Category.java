@@ -17,7 +17,7 @@ public class Category {
 	private String prt_company = null;
 	private String tel=null;
 	private String street=null;
-private String streetNo=null;
+	private String streetNo=null;
 	private String cityNm=null;
 	private double registeredBusiness;
 	
@@ -110,18 +110,4 @@ private String streetNo=null;
 		this.registeredBusiness = registeredBusiness;
 	}
 
-    @Override
-    public String toString() {
-        return "Category{" +
-                "name='" + name + '\'' +
-                ", code='" + code + '\'' +
-                ", C='" + C + '\'' +
-                ", prt_company='" + prt_company + '\'' +
-                ", tel='" + tel + '\'' +
-                ", street='" + street + '\'' +
-                ", streetNo='" + streetNo + '\'' +
-                ", cityNm='" + cityNm + '\'' +
-                ", registeredBusiness=" + registeredBusiness +
-                '}';
-    }
 }

@@ -7,11 +7,11 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.binasystems.mtimereporter.R;
 import com.binasystems.mtimereporter.dialog.ExceptionDialog;
+import com.binasystems.mtimereporter.R;
 
 public abstract class BaseAsyncTask<Result> extends AsyncTask<String, Runnable, Result>{
-	
+	protected Context context = null;
 	public static interface CallbackListener<Result>{
 		public void onSuccessResult(Result result);
 		public void onError(Throwable error);
@@ -38,7 +38,9 @@ public abstract class BaseAsyncTask<Result> extends AsyncTask<String, Runnable, 
 			}
 		}
 	}
-
+	public BaseAsyncTask(Context context){
+		this.context = context;
+	}
 	protected void postDataBackgroundHandleResult(Result result){}
 	
 	/**
@@ -48,13 +50,13 @@ public abstract class BaseAsyncTask<Result> extends AsyncTask<String, Runnable, 
 	 * 	Handler handler = new Handler(Looper.getMainLooper());
 	 * 	handler.post(new Runnable() {
 	 * 		public void run() {
-	 * 			Toast.makeText(context, e.getMessage(), Toast.LENGTH_SHORT).show();
+	 * 			Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_SHORT).show();
 	 * 		}
 	 * 	});
 	 * 	</code>
 	 * 
-	 * @param context
-	 * 		context provided from child async task or null
+	 * @param mContext
+	 * 		mContext provided from child async task or null
 	 * 
 	 * @param e
 	 *  	exception with error. It can store info about server error status line. 
@@ -67,9 +69,10 @@ public abstract class BaseAsyncTask<Result> extends AsyncTask<String, Runnable, 
 			@Override
 			public void run() {
 				Dialog alert = new ExceptionDialog(context,
-						"Request fail",
-//						context.getResources().getString(R.string.request_fail),
-						context.getString(R.string.error));
+						context.getResources()
+								.getString(R.string.request_fail),
+//						mContext.getResources().getString(R.string.request_fail),
+						context.getString(R.string.error),"");
 
 				alert.show();
 			}
@@ -85,9 +88,10 @@ public abstract class BaseAsyncTask<Result> extends AsyncTask<String, Runnable, 
 				@Override
 				public void run() {
 					Dialog alert = new ExceptionDialog(context,
-							"Request fail",
-//							context.getResources().getString(R.string.request_fail),
-							context.getString(R.string.error));
+							context.getResources()
+									.getString(R.string.request_fail),
+//							mContext.getResources().getString(R.string.request_fail),
+							context.getString(R.string.error),"");
 
 					alert.show();
 				}

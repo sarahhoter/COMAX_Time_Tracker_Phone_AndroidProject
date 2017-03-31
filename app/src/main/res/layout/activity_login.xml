@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,116 +10,147 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.binasystems.mtimereporter.activity.LoginActivity" >
 
-    <ImageView
-        android:id="@+id/logoImage"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/main_logo" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:orientation="vertical" >
+        android:orientation="vertical">
+        <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="195dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/main_logo" />
 
-        <EditText
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <EditText
             android:id="@+id/edt_organisation"
             style="@style/BinaEditTextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+                android:textDirection="rtl"
             android:hint="ארגון"
-            android:singleLine="true" />
+                android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:gravity="right"/>
 
-        <EditText
+            <EditText
             android:id="@+id/edt_login"
             style="@style/BinaEditTextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="משתמש"
-            android:gravity="end"
+                android:selectAllOnFocus="true"
+            android:textDirection="rtl"
             android:inputType="textPassword"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:gravity="right"/>
 
-        <EditText
+            <EditText
             android:id="@+id/edt_password"
             style="@style/BinaEditTextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+                android:selectAllOnFocus="true"
             android:hint="סיסמא"
             android:inputType="textPassword"
-            android:gravity="end"
+            android:textDirection="rtl"
+            android:singleLine="true"
+            android:gravity="right"/>
 
-            android:singleLine="true" />
-
-        <Button
+            <Button
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="כניסה" />
 
-        <LinearLayout
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="1dp"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:gravity="end">
 
-            <CheckBox
-                android:id="@+id/chx_rememberMe"
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/remember_login_details" />
-            <CheckBox
-                android:id="@+id/chx_rememberpass"
-                android:layout_width="match_parent"
+                android:text="@string/remember_login_details"
+                android:layout_weight="1"/>
+
+                <CheckBox
+                    android:id="@+id/chx_rememberMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+              </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/remember_login_pass" />
-            <!--<TextView-->
-                <!--android:id="@+id/login_forgot_pass"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_gravity="center_vertical|right"-->
-                <!--android:layout_weight="1"-->
-                <!--android:clickable="true"-->
-                <!--android:gravity="right"-->
-                <!--android:text="@string/forgot_password"-->
-                <!--android:textColor="@android:color/black" />-->
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remember_pass"
+                    android:layout_weight="1"/>
+
+                <CheckBox
+                    android:id="@+id/chx_rememberpass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
         </LinearLayout>
-        <LinearLayout
-            android:layout_marginTop="150dp"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:padding="4dp"
-                android:id="@+id/date"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|center_horizontal"
-                android:gravity="left"
-                />
-            <TextView
-                android:padding="4dp"
-                android:id="@+id/var_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|center_horizontal"
-                android:gravity="center"
-                />
-            <TextView
-                android:padding="4dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|center_horizontal"
-                android:gravity="right"
-                android:text="version"
-                />
+
         </LinearLayout>
     </LinearLayout>
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="left"
+            android:text="version" />
+
+        <TextView
+            android:padding="4dp"
+            android:id="@+id/var_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center" />
+
+        <TextView
+            android:padding="4dp"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="right" />
+
+    </LinearLayout>
+
+</RelativeLayout>

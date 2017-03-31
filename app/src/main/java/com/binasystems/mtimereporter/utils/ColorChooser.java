@@ -1,8 +1,7 @@
 package com.binasystems.mtimereporter.utils;
 
-import com.binasystems.mtimereporter.R;
-import com.binasystems.mtimereporter.R.drawable;
 
+import com.binasystems.mtimereporter.R;
 
 public class ColorChooser {
 

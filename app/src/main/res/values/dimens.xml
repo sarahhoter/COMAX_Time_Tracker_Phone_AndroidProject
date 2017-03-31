@@ -3,5 +3,11 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="search_view_size">17dp</dimen>
+
+    <dimen name="textView_height">100dp</dimen>
+    <dimen name="image_height">75dp</dimen>
+
+
 
 </resources>

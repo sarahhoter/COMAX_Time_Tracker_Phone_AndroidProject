@@ -2,18 +2,18 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:state_pressed="true"><shape>
-            <solid android:color="#9ED11F" />
+            <solid android:color="#329432" />
 
-            <stroke android:width="1dp" android:color="#9ED11F" />
+            <stroke android:width="1dp" android:color="#005500" />
 
             <corners android:radius="6dp" />
 
             <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
         </shape></item>
     <item><shape>
-            <solid android:color="#8AB61E" />
+            <gradient android:angle="270" android:endColor="#005500" android:startColor="#329432" />
 
-            <stroke android:width="1dp" android:color="#8AB61E" />
+            <stroke android:width="1dp" android:color="#005500" />
 
             <corners android:radius="6dp" />
 
@@ -21,27 +21,3 @@
         </shape></item>
 
 </selector>
-<!--
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:state_pressed="true"><shape>
-            <solid android:color="#9ED11F" />
-
-            <stroke android:width="1dp" android:color="#8AB61E" />
-
-            <corners android:radius="6dp" />
-
-            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
-        </shape></item>
-    <item><shape>
-            <gradient android:angle="270" android:endColor="#8AB61E" android:startColor="#9ED11F" />
-
-            <stroke android:width="1dp" android:color="#8AB61E" />
-
-            <corners android:radius="6dp" />
-
-            <padding android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp" />
-        </shape></item>
-
-</selector>
--->

@@ -21,7 +21,6 @@
                 android:layout_width="20dp"
                 android:layout_height="15dp"
                 android:layout_margin="10dp"
-                
                 android:clickable="false"
                 android:focusable="false"
                 android:focusableInTouchMode="false" />
@@ -34,67 +33,26 @@
             android:textStyle="bold"
             android:text="@string/category_select_activity_title"
             android:textColor="#FFFFFF"
-            android:textSize="16sp" />
-    </LinearLayout>
+            android:textSize="17dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-      android:orientation="vertical"
-      android:background="#fff"
-      android:layout_marginLeft="2dp"
-       android:layout_marginRight="2dp"
-        android:gravity="center_vertical" > 
-    
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="300"
-        android:background="#eee"
-        android:paddingBottom="3dp"
-         >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:gravity="center_vertical">
 
-        <TextView
-            android:id="@+id/f_textView1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="23"
-           android:textColor="#555555"
-          android:background="#fff"
-            android:gravity="left"
-            android:padding="5dp"
-            android:textSize="16sp"
-            android:textStyle="bold|italic"
-            android:text="@string/code"
-           
-            />
-
-        <TextView
-            android:id="@+id/f_textView2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="1dp"
-            android:layout_weight="277"
-           android:textColor="#555555" 
-           android:background="#fff"
-            android:gravity="left"
-            android:padding="5dp"
-            android:textSize="16sp"
-            android:textStyle="bold|italic"
-            android:text="@string/name"
-           
-            />
-
-    </LinearLayout>
-
-    <ListView
+            <ListView
         android:id="@+id/category_list"
         android:layout_width="match_parent"
-        android:background="#eee"
+        android:background="#ffffff"
         android:divider="@null"
         android:layout_height="match_parent" >
     </ListView>
-  </LinearLayout>
+        </LinearLayout>
     
 </LinearLayout>

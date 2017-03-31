@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.binasystems.mtimereporter.R;
 
+
 public class ExceptionDialog extends Dialog {
 	/*
 	 * UI Elements
@@ -25,15 +26,9 @@ public class ExceptionDialog extends Dialog {
 	}
 
 	public ExceptionDialog(Context context, CharSequence message,
-			CharSequence title) {
+			CharSequence title,CharSequence button) {
 		super(context, android.R.style.Theme_Holo_Light_Dialog);
-
-		//if(title!=null)
-		//setTitle(title);
-		
-	//	else
-			requestWindowFeature(getWindow().FEATURE_NO_TITLE);  
-				
+		requestWindowFeature(getWindow().FEATURE_NO_TITLE);
 		setCancelable(false);
 		getWindow().setSoftInputMode(
 				WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
@@ -53,6 +48,7 @@ public class ExceptionDialog extends Dialog {
 
 			@Override
 			public void onClick(View v) {
+
 				dismiss();
 			}
 		});
@@ -62,6 +58,9 @@ public class ExceptionDialog extends Dialog {
 		 */
 		this.title.setText(title);
 		this.message.setText(message);
+
+		if(button!=null&&!button.equals(""))
+			ok.setText(button);
 		//this.setCustomSize(420, 0);
 	}
 

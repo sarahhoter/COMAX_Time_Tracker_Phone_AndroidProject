@@ -32,7 +32,9 @@ public class Customer {
 	private Long osek = null;
 	private Long idxGrp = null;
 	private String groupNm = null;
+
 	private String remark = null;
+	private String email = null;
 
 	public Customer() {
 
@@ -54,6 +56,7 @@ public class Customer {
 		setMhrNm("");
 		setIdxGrp(new Long(0));
 		setGroupNm("");
+		setEmail("");
 		setOsek(new Long(0));
 		setLoginKod(new Long(0));
 		setLogInPassword(new Long(0));
@@ -88,6 +91,7 @@ public class Customer {
 		this.osek = customer.osek;
 		this.idxGrp = customer.idxGrp;
 		this.groupNm = customer.groupNm;
+		this.email=customer.email;
 	}
 
 	public Customer(JSONObject customer) throws JSONException {
@@ -95,33 +99,29 @@ public class Customer {
 		setCode(customer.getString("C"));
 		setName(customer.getString("Nm"));
 
-		try {
+		try {setKod(customer.getLong("Kod"));} catch (Exception e) {}
+		try {setSochen(customer.getLong("Sochen"));} catch (Exception e) {}
+		try {setSochenNm(customer.getString("Sochen_Nm"));} catch (Exception e) {}
+		try {setTel(customer.getString("Tel"));} catch (Exception e) {}
+		try {setPelefon(customer.getString("Pelefon"));} catch (Exception e) {}
+		try {setAddress(customer.getString("Address"));} catch (Exception e) {}
+		try {setCityC(customer.getLong("CityC"));} catch (Exception e) {}
+		try {setCity(customer.getString("City"));} catch (Exception e) {}
+		try {setRemIdx(customer.getString("RemIdx"));} catch (Exception e) {}
+		try {setNmV(customer.getString("NmV"));} catch (Exception e) {}
+		try {setUserIdx(customer.getLong("UserIdx"));} catch (Exception e) {}
+		try {setAczDis(customer.getDouble("AczDis"));} catch (Exception e) {}
+		try {setMhrC(customer.getLong("MhrC"));} catch (Exception e) {}
+		try {setMhrNm(customer.getString("MhrNm"));} catch (Exception e) {}
+		try {setIdxGrp(customer.getLong("Idx_Grp"));} catch (Exception e) {}
+		try {setGroupNm(customer.getString("Group_Nm"));} catch (Exception e) {}
+		try {setEmail(customer.getString("Email"));} catch (Exception e) {}
+		try {setOsek(customer.getLong("Osek"));} catch (Exception e) {}
+		try {setLoginKod(customer.getLong("LoginKod"));} catch (Exception e) {}
+		try {setLogInPassword(customer.getLong("LogInPassword"));} catch (Exception e) {}
+		try {if (osek == null) osek = new Long(0);} catch (Exception e) {}
 
-			setKod(customer.getLong("Kod"));
-			setSochen(customer.getLong("Sochen"));
-			setSochenNm(customer.getString("Sochen_Nm"));
-			setTel(customer.getString("Tel"));
-			setPelefon(customer.getString("Pelefon"));
-			setAddress(customer.getString("Address"));
-			setCityC(customer.getLong("CityC"));
-			setCity(customer.getString("City"));
-			setRemIdx(customer.getString("RemIdx"));
-			setNmV(customer.getString("NmV"));
-			setUserIdx(customer.getLong("UserIdx"));
-			setAczDis(customer.getDouble("AczDis"));
-			setMhrC(customer.getLong("MhrC"));
-			setMhrNm(customer.getString("MhrNm"));
-			setIdxGrp(customer.getLong("Idx_Grp"));
-			setGroupNm(customer.getString("Group_Nm"));
-			setOsek(customer.getLong("Osek"));
-			setLoginKod(customer.getLong("LoginKod"));
-			setLogInPassword(customer.getLong("LogInPassword"));
 
-			if (osek == null)
-				osek = new Long(0);
-
-		} catch (Exception e) {
-		}
 
 	}
 
@@ -301,31 +301,11 @@ public class Customer {
 		this.remark = remark;
 	}
 
-    @Override
-    public String toString() {
-        return "Customer{" +
-                "code='" + code + '\'' +
-                ", name='" + name + '\'' +
-                ", kod=" + kod +
-                ", sochen=" + sochen +
-                ", sochenNm='" + sochenNm + '\'' +
-                ", tel='" + tel + '\'' +
-                ", pelefon='" + pelefon + '\'' +
-                ", address='" + address + '\'' +
-                ", cityC=" + cityC +
-                ", city='" + city + '\'' +
-                ", remIdx='" + remIdx + '\'' +
-                ", nmV='" + nmV + '\'' +
-                ", loginKod=" + loginKod +
-                ", logInPassword=" + logInPassword +
-                ", userIdx=" + userIdx +
-                ", aczDis=" + aczDis +
-                ", mhrC=" + mhrC +
-                ", mhrNm='" + mhrNm + '\'' +
-                ", osek=" + osek +
-                ", idxGrp=" + idxGrp +
-                ", groupNm='" + groupNm + '\'' +
-                ", remark='" + remark + '\'' +
-                '}';
-    }
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 }

@@ -2,6 +2,7 @@ package com.binasystems.mtimereporter.utils;
 
 import android.os.AsyncTask;
 
+
 import com.binasystems.mtimereporter.TimeTrackerApplication;
 import com.binasystems.mtimereporter.api.requests.PostRequest;
 
@@ -24,7 +25,7 @@ public class LogTracker {
                     try {
                         HashMap<String, Object> postData = new HashMap<String, Object>();
                         postData.put("api_key", "comax-time-tracker");
-                        postData.put("device_id", Utils.getUserAgent(TimeTrackerApplication.getInstace()));
+                        postData.put("device_id", Utils.getUserAgent(TimeTrackerApplication.getInstance()));
                         postData.put("message", message);
 
                         request.executeNotEncrypted("http://binalogs.binaprojects.com/", null, postData);

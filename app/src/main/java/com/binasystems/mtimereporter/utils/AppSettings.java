@@ -5,13 +5,7 @@ import android.content.SharedPreferences;
 
 public class AppSettings {
 
-	public static class UserCredintails{
-		public String LkC = "";
-		public String SwSQL = "";
-		public String UserC = "";
-		public String LogC = "";
-		public String StoreC = "";
-	}
+
 
 	public static String getCurrentUser(Context context){
 		SharedPreferences pref =  context.getSharedPreferences("com.binasystems.timereporter", Context.MODE_PRIVATE);

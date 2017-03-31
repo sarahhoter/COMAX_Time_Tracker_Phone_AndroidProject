@@ -1,14 +1,16 @@
 package com.binasystems.mtimereporter.activity;
 
-import com.binasystems.mtimereporter.utils.LoggerFacade;
+import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
+
 import com.binasystems.mtimereporter.api.ReportRequestManager;
 import com.binasystems.mtimereporter.dialog.WaitDialog;
-import com.splunk.mint.Mint;
 
-import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-
-public class BaseActivity extends ActionBarActivity{
+public class BaseActivity extends ActionBarActivity implements View.OnTouchListener{
 
 	protected ReportRequestManager mReportManager;
 	protected WaitDialog mProgressDialog;
@@ -16,46 +18,49 @@ public class BaseActivity extends ActionBarActivity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		Mint.initAndStartSession(this, "69bcb2e5");
-
-        LoggerFacade.leaveBreadcrumb("call method onCreate, class: " + this.getClass());
-		
 		mReportManager = new ReportRequestManager(this);
+
+		ActionBar actionBar = getSupportActionBar();
+		if (actionBar != null) {
+			actionBar.setDisplayUseLogoEnabled(false);
+			actionBar.setDisplayHomeAsUpEnabled(true);
+		}
 	}
 
 	@Override
-	protected void onDestroy() {
-		super.onDestroy();
-		LoggerFacade.leaveBreadcrumb("call method onDestroy, class: " + this.getClass());
+	public boolean onOptionsItemSelected(MenuItem item) {
+		
+		if(item.getItemId() == android.R.id.home){
+			finish();
+			return true;
+		}
+		
+		return super.onOptionsItemSelected(item);
 	}
-
-	protected void showProgress(){
-        LoggerFacade.leaveBreadcrumb("call method showProgress, class: " + this.getClass());
-
-		try{
-			if(mProgressDialog == null){
-				mProgressDialog = new WaitDialog(this);			
-			}
-			
-			if(!mProgressDialog.isShowing()){
-				mProgressDialog.show();
-			}			
-		} catch(Exception e){
-			
+	
+	public void showProgress(){
+		if(mProgressDialog == null){
+			mProgressDialog = new WaitDialog(this);			
+		}
+		
+		if(!mProgressDialog.isShowing()){
+			mProgressDialog.show();
 		}
 	}
 	
-	protected void hideProgress(){
-        LoggerFacade.leaveBreadcrumb("call method hideProgress(), class: " + this.getClass());
-		try{
-			if(mProgressDialog != null){
-				if(mProgressDialog.isShowing()){
-					mProgressDialog.dismiss();
-					mProgressDialog = null;				
-				}
-			}			
-		} catch(Exception e){
-			
+	public void hideProgress(){
+		if(mProgressDialog != null){
+			if(mProgressDialog.isShowing()){
+				mProgressDialog.dismiss();
+				mProgressDialog = null;				
+			}
 		}
 	}
+
+	@Override
+	public boolean onTouch(View view, MotionEvent motionEvent) {
+		return false;
+	}
+
+
 }
