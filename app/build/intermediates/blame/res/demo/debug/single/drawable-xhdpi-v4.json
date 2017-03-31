@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\drawable-xhdpi-v4\\yellow_button.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\drawable-xhdpi\\yellow_button.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\drawable-xhdpi-v4\\green_button.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\drawable-xhdpi\\green_button.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\drawable-xhdpi-v4\\white_button_no_pressed.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\drawable-xhdpi\\white_button_no_pressed.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\drawable-xhdpi-v4\\gray_button.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\drawable-xhdpi\\gray_button.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\drawable-xhdpi-v4\\white_edit.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\drawable-xhdpi\\white_edit.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\drawable-xhdpi-v4\\white_button.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\drawable-xhdpi\\white_button.xml"
+    }
+]

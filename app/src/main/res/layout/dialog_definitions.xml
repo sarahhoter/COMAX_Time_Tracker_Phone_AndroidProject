@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include android:id="@+id/action_bar"
+        layout="@layout/view_action_bar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:orientation="horizontal"
+             android:weightSum="100"
+             android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="65"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="5dp"
+
+            android:layout_gravity="right"
+            />
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="5dp"
+            android:id="@+id/type"
+
+            android:layout_gravity="right"
+            />
+                <com.binasystems.mtimereporter.customview.ListViewMaxHeigh
+                android:id="@+id/store"
+                android:textSize="17dp"
+                android:padding="5dp"
+                android:textDirection="rtl"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:divider="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:maxHeight="420dp" />
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="5dp"
+            android:id="@+id/store_txt"
+            android:visibility="gone"
+            android:layout_gravity="right" />
+
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="35"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                 android:padding="5dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="right"
+                 android:textSize="17dp"
+
+                 android:text="@string/use"
+                 />
+                <TextView
+                 android:padding="5dp"
+
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="right"
+                 android:textSize="17dp"
+
+                 android:text="@string/typeUse"
+                 />
+                <TextView
+                 android:padding="5dp"
+
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="right"
+                 android:textSize="17dp"
+
+                 android:text="@string/allowed_store"
+                 />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="65"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:padding="5dp"
+                    android:id="@+id/display_store_val"
+                    android:layout_gravity="right"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:padding="5dp"
+                    android:id="@+id/price"
+
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="35"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/display_store"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textSize="17dp"
+
+                    android:text="@string/display_stores"
+                    />
+                <TextView
+                    android:padding="5dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textSize="17dp"
+
+                    android:text="@string/allowed_prices"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

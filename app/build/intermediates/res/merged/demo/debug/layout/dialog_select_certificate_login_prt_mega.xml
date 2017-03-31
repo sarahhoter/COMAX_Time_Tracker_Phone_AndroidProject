@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/g_LayoutButton1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <include android:id="@+id/action_bar"
+        layout="@layout/view_action_bar"/>
+
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="match_parent"
+        android:lines="1"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#555"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/supplier"
+        android:layout_width="match_parent"
+        android:lines="1"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#555"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="end"
+        android:iconifiedByDefault="false"
+        android:background="@drawable/border_gray"/>
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"/>
+    </LinearLayout>
+
+
+
+<!--    &lt;!&ndash;<LinearLayout&ndash;&gt;
+        &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;
+        &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;
+        &lt;!&ndash;android:weightSum="10"&ndash;&gt;
+        &lt;!&ndash;android:layout_marginTop="5dp"&ndash;&gt;
+        &lt;!&ndash;android:layout_marginRight="10dp"&ndash;&gt;
+        &lt;!&ndash;android:orientation="horizontal">&ndash;&gt;
+        &lt;!&ndash;<TextView&ndash;&gt;
+            &lt;!&ndash;android:id="@+id/qty"&ndash;&gt;
+            &lt;!&ndash;android:layout_width="0dp"&ndash;&gt;
+            &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;
+            &lt;!&ndash;android:layout_weight="2.5"&ndash;&gt;
+            &lt;!&ndash;android:gravity="right"&ndash;&gt;
+            &lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;
+            &lt;!&ndash;android:textAppearance="?android:attr/textAppearanceSmall"&ndash;&gt;
+            &lt;!&ndash;android:textColor="#555"&ndash;&gt;
+            &lt;!&ndash;android:inputType="number"&ndash;&gt;
+            &lt;!&ndash;android:text="@string/quantity"&ndash;&gt;
+            &lt;!&ndash;android:textSize="17dp" />&ndash;&gt;
+        &lt;!&ndash;<TextView&ndash;&gt;
+            &lt;!&ndash;android:id="@+id/name"&ndash;&gt;
+            &lt;!&ndash;android:layout_width="0dp"&ndash;&gt;
+            &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;
+            &lt;!&ndash;android:layout_weight="7.5"&ndash;&gt;
+            &lt;!&ndash;android:clickable="false"&ndash;&gt;
+            &lt;!&ndash;android:text="@string/item"&ndash;&gt;
+            &lt;!&ndash;android:focusable="false"&ndash;&gt;
+            &lt;!&ndash;android:focusableInTouchMode="false"&ndash;&gt;
+            &lt;!&ndash;android:gravity="right"&ndash;&gt;
+            &lt;!&ndash;android:textAppearance="?android:attr/textAppearanceSmall"&ndash;&gt;
+            &lt;!&ndash;android:textColor="#555"&ndash;&gt;
+            &lt;!&ndash;android:textSize="17dp" />&ndash;&gt;
+        &lt;!&ndash;&lt;!&ndash;<CheckBox&ndash;&gt;&ndash;&gt;
+        &lt;!&ndash;&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;&ndash;&gt;
+        &lt;!&ndash;&lt;!&ndash;android:id="@+id/select"&ndash;&gt;&ndash;&gt;
+        &lt;!&ndash;&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;&ndash;&gt;
+        &lt;!&ndash;&lt;!&ndash;android:layout_weight="1"/>&ndash;&gt;&ndash;&gt;
+
+    &lt;!&ndash;</LinearLayout-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/prt_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

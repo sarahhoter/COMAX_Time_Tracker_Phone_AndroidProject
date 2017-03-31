@@ -1,0 +1,50 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.25"
+        android:background="#000000"
+        android:layout_height="match_parent"></LinearLayout>
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:textColor="#555"
+        android:textSize="17dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="49.65"
+        android:paddingRight="5dp"
+        android:gravity="right" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.25"
+        android:background="#000000"
+        android:layout_height="match_parent"></LinearLayout>
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="49.65"
+        android:textColor="#555"
+        android:textSize="17dp"
+        android:paddingLeft="5dp"
+        android:gravity="left"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.25"
+        android:background="#000000"
+        android:layout_height="match_parent"></LinearLayout>
+
+</TableRow>

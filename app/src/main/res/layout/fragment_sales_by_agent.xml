@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/navigationByDateView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/view_prev_next_navigation" />
+
+
+    <!--<CalendarView-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="300dp"/>-->
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="300"
+        android:background="#ffffff"
+        android:paddingBottom="3dp"
+        >
+
+        <TextView
+            android:id="@+id/col1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="23"
+            android:textColor="#555555"
+            android:background="#fff"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="17dp"
+            android:textStyle="bold|italic"
+            android:text="@string/code"
+
+            />
+
+        <TextView
+            android:id="@+id/col2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="277"
+            android:textColor="#555555"
+            android:background="#fff"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="17dp"
+            android:textStyle="bold|italic"
+            android:text="@string/name"
+
+            />
+        <TextView
+            android:id="@+id/col3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="277"
+            android:textColor="#555555"
+            android:background="#fff"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="17dp"
+            android:textStyle="bold|italic"
+            android:text="@string/name"
+
+            />
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <!--        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:layout_marginRight="3dp"
+            android:gravity="center_vertical"
+            android:layout_weight="20"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal"
+            android:weightSum="100" >-->
+
+    <include
+        android:id="@+id/sales_by_dep_header_view"
+        layout="@layout/sales_by_agent_header_view"/>
+
+
+    <!-- the android:id is important -->
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <!-- the android:id is important -->
+
+
+</LinearLayout>

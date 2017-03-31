@@ -1,0 +1,442 @@
+[
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_bar_tab.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_sales_menu.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_sales_menu.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_select_certificate_login_prt_mega.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_select_certificate_login_prt_mega.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_project.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_project.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\category_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\category_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_sales_by_dep.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_sales_by_dep.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_prt.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_prt.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\prt_generate_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\prt_generate_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\daialog_select_date.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\daialog_select_date.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_bar_tabbar.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_obligation.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_obligation.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\item_update.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\item_update.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_bar_decor_include.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_recycler.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_recycler.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_image_view.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_image_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_type.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_type.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_select_certificate_login_suppliers.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_select_certificate_login_suppliers.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\activity_price_main_menu.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\activity_price_main_menu.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_add_actions.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_add_actions.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_bar_home.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_home.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_sales_by_store_details.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_sales_by_store_details.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\aging_debts_table_row_sum.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\aging_debts_table_row_sum.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_signature.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_signature.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_sales_by_dep_details.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_sales_by_dep_details.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\aging_debts_table_row.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\aging_debts_table_row.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_list.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_list.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\main_menu_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\main_menu_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\customer_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\customer_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_store_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_store_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_transfer_certificate.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_transfer_certificate.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\stocktaking_fragment.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\stocktaking_fragment.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\list_item_layout.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\list_item_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_exception.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_exception.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_select_certificate_login_prt.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_select_certificate_login_prt.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\base_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\base_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_image_prt_view.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_image_prt_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_date.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_date.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\activity_category_select.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\activity_category_select.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_customers_new_invoice.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_customers_new_invoice.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_date_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_date_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_store_header_view.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_store_header_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_close.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_close.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_yes_no.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_yes_no.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_status_chance.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_status_chance.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\action_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\action_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_chance.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_chance.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\prt_mega_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\prt_mega_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\relation_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\relation_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_datepicker.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_datepicker.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\view_action_bar.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\view_action_bar.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\product_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\product_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_dep_header_view.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_dep_header_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_bar_decor_overlay.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_definitions.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_definitions.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_sales_by_date.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_sales_by_date.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\view_prev_next_navigation.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\view_prev_next_navigation.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\spinner_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\spinner_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\edi_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\edi_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\stocktacking_reception.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\stocktacking_reception.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\menu_item_text.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\menu_item_text.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_sales_by_agent_details.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_sales_by_agent_details.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\activity_category.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\activity_category.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_wait.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_wait.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\activity_time_report.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\activity_time_report.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_select_certificate_login_suppliers.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_select_certificate_login_suppliers.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\new_invoice_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\new_invoice_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_supplier_order.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_supplier_order.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_treatment_date.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_treatment_date.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_agent_details_header_view.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_agent_details_header_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\spinner_layout.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_present.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_present.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\combo_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\combo_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_add_action_select_location.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_add_action_select_location.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_agent_header_view.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_agent_header_view.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_item_price_check.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_item_price_check.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_agent_details_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_agent_details_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\null_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\null_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_sales_by_agent.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_sales_by_agent.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\activity_main_menu.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_add_action_select_cutomer.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_add_action_select_cutomer.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_agent_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_agent_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_customer_details.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_customer_details.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\activity_login.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\sales_by_store_detail_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\sales_by_store_detail_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\fragment_sales_by_store.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\fragment_sales_by_store.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\pr_select_image_fragment.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\pr_select_image_fragment.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\activity_branch.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\activity_branch.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_mode_close_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\update_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\update_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\prt_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\prt_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\store_allowed_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\store_allowed_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\add_action_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\add_action_list_item.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\dialog_refund_certificate.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\dialog_refund_certificate.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\layout\\prt_edi_list_item.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\layout\\prt_edi_list_item.xml"
+    }
+]

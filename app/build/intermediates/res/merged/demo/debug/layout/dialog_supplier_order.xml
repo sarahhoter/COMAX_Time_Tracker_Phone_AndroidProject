@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:id="@+id/main"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <include android:id="@+id/action_bar"
+        layout="@layout/view_action_bar"/>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="end"
+        android:iconifiedByDefault="false"
+        android:background="@drawable/border_gray"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/our_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.8"
+                android:layout_marginTop="10dp">
+
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:maxLines="2" />
+
+
+</LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/msgBarcodeNotExist"
+            android:textColor="@color/Red"
+            android:textSize="17dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <EditText
+                    android:id="@+id/qty_stock_edit"
+                    android:layout_weight="0.25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="right"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bg_border_bottom_medium_gray"
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:inputType="number"
+                    android:visibility="gone"
+
+                    />
+                <TextView
+                    android:id="@+id/qty_stock"
+                    android:layout_weight="0.20"
+                    android:layout_width="0dp"
+                    android:paddingRight="10dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="right"
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:visibility="visible" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="vertical" >
+
+                    <TextView
+
+                        android:id="@+id/qty_stock_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:visibility="gone"
+                        android:gravity="right"
+                        android:text="@string/quantity_stock"
+                        android:textColor="#555"
+                        android:textSize="17dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_weight="0.55"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="right"
+                     android:gravity="right"
+                     android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_marginBottom="15dp"
+
+                        android:id="@+id/qty_month"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="10dp"
+                        android:gravity="right"
+                        android:textColor="#555"
+                        android:textSize="17dp"
+                        android:visibility="visible" />
+                    <TextView
+                        android:layout_marginBottom="15dp"
+
+                        android:id="@+id/qty_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="10dp"
+                        android:gravity="right"
+                        android:textColor="#555"
+                        android:textSize="17dp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/qty_last_week"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:paddingRight="10dp"
+
+                        android:gravity="right"
+                        android:textColor="#555"
+                        android:textSize="17dp"
+                        android:visibility="visible"
+
+                    />
+
+                    <TextView
+                         android:id="@+id/qty_expected_sales"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="right"
+                         android:textColor="#555"
+                         android:textSize="17dp"
+                         android:visibility="visible"
+                        android:paddingRight="10dp"
+
+                     />
+
+                    <TextView
+                        android:paddingRight="10dp"
+
+                        android:id="@+id/order_supplier"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="right"
+                        android:textColor="#555"
+                        android:textSize="17dp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/proc_qty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="right"
+                        android:textColor="#555"
+                        android:paddingRight="10dp"
+
+                        android:textSize="17dp"
+                        android:visibility="visible" />
+                    <TextView
+                        android:id="@+id/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="right"
+                        android:textColor="#555"
+                        android:paddingRight="10dp"
+
+                        android:textSize="17dp"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.45"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/qty_month_txt"
+                        android:layout_marginBottom="15dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:text="@string/quantity_month"
+                        android:textSize="17dp"
+                        android:visibility="gone"
+                        android:textColor="#555"
+
+                        />
+                    <TextView
+                        android:id="@+id/qty_view_txt"
+                        android:layout_marginBottom="15dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:text="@string/quantity_view"
+                        android:textSize="17dp"
+                        android:visibility="gone"
+                        android:textColor="#555"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/qty_last_week_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="right"
+                        android:text="@string/quantity_last_week"
+                        android:textSize="17dp"
+                        android:visibility="gone"
+                        android:textColor="#555"/>
+                    <TextView
+                        android:id="@+id/qty_expected_sales_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+
+                        android:gravity="right"
+                        android:text="@string/sales_expected"
+                        android:textSize="17dp"
+                        android:visibility="gone"
+                        android:textColor="#555"/>
+                    <TextView
+                        android:id="@+id/order_supplier_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+
+                        android:gravity="right"
+                        android:text="@string/supplier_open_orders"
+                        android:textSize="17dp"
+                        android:visibility="gone"
+                        android:textColor="#555"/>
+                    <TextView
+                        android:id="@+id/proc_qty_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+
+                        android:gravity="right"
+                        android:text="@string/quantity_procument"
+                        android:textSize="17dp"
+                        android:visibility="gone"
+                        android:textColor="#555"/>
+                    <TextView
+                        android:id="@+id/line_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+
+                        android:gravity="right"
+                        android:text="@string/line"
+                        android:textSize="17dp"
+                        android:visibility="gone"
+                        android:textColor="#555"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+

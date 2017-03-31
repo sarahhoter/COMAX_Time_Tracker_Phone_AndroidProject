@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="programs">
+        <item> דיווח שעות </item>
+        <item> תצוגת דיווחים </item>
+        <item> פעילויות </item>
+        <item> הוספת פעילות </item>
+    </string-array>
+    <string-array name="statusArray">
+        <item> תכנון </item>
+        <item> אושר </item>
+        <item> בוטל </item>
+        <item> בוצע </item>
+
+
+    </string-array>
+    <string-array name="typeArray">
+        <item> הדגמה </item>
+        <item> הדרכה </item>
+        <item> היכרות </item>
+        <item> מכירה </item>
+        <item> פגישה כללית </item>
+        <item> שיווק </item>
+        <item> שיחה טלפונית </item>
+        <item> שימור </item>
+        <item> שרות </item>
+        <item> רבעונית </item>
+        <item> מכירה מגבילה </item>
+        <item> נחיתה מגבילה </item>
+        <item> מכירה לקוח רדום </item>
+        <item> נחיתה לקוח רדום </item>
+        <item> ברוך הבא </item>
+        <item> אחר </item>
+    </string-array>
+    <string name="Department">מחלקה</string>
+    <string name="Play">סקנר</string>
+    <string name="Search">ביצוע חיפוש</string>
+    <string name="_balance">יתרה</string>
+    <string name="_balance_field">יתרה:</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"נווט לדף הבית"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"נווט למעלה"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"בוצע"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ראה הכול"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"בחר אפליקציה"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"מחק שאילתה"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"חפש"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"שלח שאילתה"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"שתף עם"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏שתף עם %s"</string>
+    <string name="action">פעילויות</string>
+    <string name="action_details">פרטי פעילות</string>
+    <string name="action_select_date">תאריך</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_action">הוספת פעילות</string>
+    <string name="address">כתובת</string>
+    <string name="agent">סוכן</string>
+    <string name="agents">סוכנים</string>
+    <string name="alert">הודעה</string>
+    <string name="all_sum">סה\""כ:</string>
+    <string name="alll">הכל</string>
+    <string name="allowed">מורשה</string>
+    <string name="allowed_prices">מחיר קניה</string>
+    <string name="allowed_store">מורשה לסניפים</string>
+    <string name="ask">פנה לתמיכה</string>
+    <string name="avg_deal">ע. ממוצעת</string>
+    <string name="back_cause">סיבות החזר</string>
+    <string name="balance">יתרת כרטיס:</string>
+    <string name="barcode">ברקוד</string>
+    <string name="barcode2">הקש/י ברקוד</string>
+    <string name="bigger">כמות ביקורת שונה, האם להמשיך?</string>
+    <string name="blocked">חסום!!</string>
+    <string name="blocked_for_store">חסום למחסן!!</string>
+    <string name="branch">תאריך</string>
+    <string name="by_doc">לפי תאריך</string>
+    <string name="by_document_date">לפי תאריך מסמך</string>
+    <string name="by_value_date">לפי תאריך פרעון</string>
+    <string name="call"><u>חיוג</u></string>
+    <string name="cancel">ביטול</string>
+    <string name="car_num">מס. רכב</string>
+    <string name="card">חופשה</string>
+    <string name="cash_money">עבודה</string>
+    <string name="category_select_activity_title">Select company &amp; branch</string>
+    <string name="cause_required">חובה סיבת החזר</string>
+    <string name="certificate_login">תעודות כניסה</string>
+    <string name="certificate_login_mega_title">תעודת כניסה מגה</string>
+    <string name="certificate_login_title">תעודת כניסה</string>
+    <string name="certificate_login_title_edi">תעודת כניסה בגין EDI</string>
+    <string name="chance">הזדמנות:</string>
+    <string name="choose_customer">בחר לקוח</string>
+    <string name="choose_supplier">בחר ספק</string>
+    <string name="city">עיר</string>
+    <string name="condition_payment">תנאי תשלום:</string>
+    <string name="contribution">תרומה</string>
+    <string name="customer_employee">שם לקוח/ שם עובד</string>
+    <string name="customer_name">שם לקוח</string>
+    <string name="customers">לקוח:</string>
+    <string name="customerss">לקוחות</string>
+    <string name="date">תאריך</string>
+    <string name="date_no_title">תאריך:</string>
+    <string name="day">יום</string>
+    <string name="definitions">הגדרות</string>
+    <string name="delete"> למחוק מסמך?</string>
+    <string name="department">מחלקה:</string>
+    <string name="departmentPrt">מחלקה</string>
+    <string name="departments">מחלקות</string>
+    <string name="description">תאור</string>
+    <string name="description_field">תאור:</string>
+    <string name="display_stores">תצוגת סניף</string>
+    <string name="doc_exsist">אסמכתא קיימת</string>
+    <string name="document">מסמך</string>
+    <string name="document_date">תאריך מסמך</string>
+    <string name="document_type">סוג:</string>
+    <string name="document_value">פרעון</string>
+    <string name="documentt">אסמכתא</string>
+    <string name="done">אישור</string>
+    <string name="driver">נהג</string>
+    <string name="edi">EDI</string>
+    <string name="email">מייל</string>
+    <string name="employee_name">שם עובד:</string>
+    <string name="error">שגיאה</string>
+    <string name="exit">יציאה</string>
+    <string name="for_store">למחסן</string>
+    <string name="from_store">ממחסן</string>
+    <string name="general">כללי</string>
+    <string name="group">קבוצה</string>
+    <string name="groupPrt">קבוצה</string>
+    <string name="group_field">קבוצה:</string>
+    <string name="hasmachta_used">אסמכתא בשימוש</string>
+    <string name="hour">שעה:</string>
+    <string name="hour_s">משך בשעות</string>
+    <string name="hour_title">שעה</string>
+    <string name="insert_line">הוספת שורה</string>
+    <string name="item">פריט</string>
+    <string name="itemSuper">המשך בלי בחירה</string>
+    <string name="line">שורה</string>
+    <string name="lines">שורות</string>
+    <string name="list_of_all_sales_by_date">רשימת כל המכירות לפי תאריך</string>
+    <string name="list_of_all_sales_stores">רשימת כל המכירות לפי חנות</string>
+    <string name="load_item_details_fail">שגיאה בטעינת פרטי פריט</string>
+    <string name="location">מיקום</string>
+    <string name="login_incorect">הכניסה לא הצליחה.\n שגיאת כניסה</string>
+    <string name="make">ההוספה בוצעה בהצלחה</string>
+    <string name="meeting">פרטי פגישה</string>
+    <string name="mivzaim">מבצעים</string>
+    <string name="months">חודשים</string>
+    <string name="msgBarcodeNotExist">ברקוד לא קיים</string>
+    <string name="msgBarcodeNotValid">ברקוד חובה</string>
+    <string name="msgLogout">האם אתה בטוח שברצונך להתנתק?</string>
+    <string name="msg_add_to_doc"> האם להוסיף למסמך?</string>
+    <string name="msg_certificate_not_finished">קיימת תעודה שלא הסתיימה, האם להמשיך אותה?</string>
+    <string name="msg_must_sign">חובת חתימה</string>
+    <string name="msg_update_line">יעדכן שורה?</string>
+    <string name="name">שם</string>
+    <string name="next">המשך</string>
+    <string name="nis"> ש\""ח </string>
+    <string name="no">לא</string>
+    <string name="no_allowed">לא מורשה</string>
+    <string name="normal">רגיל</string>
+    <string name="not_choose_image">לא נבחרה תמונה</string>
+    <string name="not_choose_item">לא סומנו פריטים</string>
+    <string name="not_givoon">לא בגיוון!!</string>
+    <string name="o_k">אישור</string>
+    <string name="obligation">קליטה</string>
+    <string name="ok">נסה שוב</string>
+    <string name="ok_msg">אישור</string>
+    <string name="ok_obligation">אישור קליטה</string>
+    <string name="open_invoice">חשבוניות פתוחות</string>
+    <string name="open_invoices">חשבוניות פתוחות</string>
+    <string name="order_save"> ישנה הזמנה שמורה האם אתה מעוניין בה?</string>
+    <string name="order_saved">הזמנה נשמרה</string>
+    <string name="other">אחר</string>
+    <string name="payment_balance">יתרה לתשלום:</string>
+    <string name="phone">נייד</string>
+    <string name="present">נוכחים</string>
+    <string name="presentClose">% סגירה</string>
+    <string name="price_not_exist">מחיר לא נמצא</string>
+    <string name="prices">בדיקת מחירים</string>
+    <string name="project">פרויקט:</string>
+    <string name="projectTitle">פרויקט</string>
+    <string name="properties">פרטים</string>
+    <string name="prt_amara">המרה לפריט:</string>
+    <string name="prts">פריטים</string>
+    <string name="prts_check">בדיקת מחירי מדף</string>
+    <string name="prts_photo">צילום פריטים</string>
+    <string name="quantity">כמות</string>
+    <string name="quantity_filed">כמות:</string>
+    <string name="quantity_last_week">מכר בשבוע שעבר</string>
+    <string name="quantity_month">מכר חודשי ממוצע</string>
+    <string name="quantity_procument">כמות מומלצת</string>
+    <string name="quantity_review">כמות ביקורת</string>
+    <string name="quantity_stock">כמות מלאי</string>
+    <string name="quantity_view">כמות בתצוגה</string>
+    <string name="red_stamp">חותמת אדומה</string>
+    <string name="refund_certificate">תעודת החזר</string>
+    <string name="refund_certificates">תעודת החזר</string>
+    <string name="remark">הערה</string>
+    <string name="remember_login_details">זכור אותי</string>
+    <string name="remember_pass">זכור סיסמא</string>
+    <string name="request_fail">בקשה נכשלה</string>
+    <string name="sale_card_value">חופשה %s</string>
+    <string name="sale_cash_value">עבודה %s</string>
+    <string name="sale_check_value">אחר %s</string>
+    <string name="sale_month">חודש  %s</string>
+    <string name="sale_week">שבוע  %s</string>
+    <string name="sale_year">שנת  %s</string>
+    <string name="sales">מכירות</string>
+    <string name="sales_by_agent">מכירות לפי סוכנים / מוכרים</string>
+    <string name="sales_by_date">מכירות לפי תאריך</string>
+    <string name="sales_by_dep">מכירות לפי מחלקה</string>
+    <string name="sales_by_store">מכירות לפי חנות</string>
+    <string name="sales_details_transaction_average">עסקאות בסכום ממוצע :</string>
+    <string name="sales_details_transaction_counter">עסקאות</string>
+    <string name="sales_expected">צפי מכירות</string>
+    <string name="sales_price">מחיר </string>
+    <string name="save">שמירה</string>
+    <string name="scan_barcode">הקש/י ברקוד</string>
+    <string name="scan_barcode_or_kod">סרוק ברקוד או קוד ספק</string>
+    <string name="scan_barcode_prt"> הכנס ברקוד פריט </string>
+    <string name="search_supplier_hint">הכנס שם/קוד ספק או ברקוד פריט</string>
+    <string name="select_date">בחירת תאריך</string>
+    <string name="select_img">בחר תמונה</string>
+    <string name="select_month">בחירת חודש</string>
+    <string name="select_year">בחירת שנה</string>
+    <string name="send_email">שליחת מייל</string>
+    <string name="signature">חתימה:</string>
+    <string name="status">סטטוס:</string>
+    <string name="stocktaking">ספירת מלאי</string>
+    <string name="stocktaking_received">ספירה נקלטה</string>
+    <string name="store">מחסן</string>
+    <string name="subgroup">ק. משנה</string>
+    <string name="sum">סיכום</string>
+    <string name="sumClose">סכום סגירה</string>
+    <string name="sum_title">סכום</string>
+    <string name="summ">סכום:</string>
+    <string name="supak">סופק</string>
+    <string name="supak_field">סופק:</string>
+    <string name="supper">מנהל מערכת</string>
+    <string name="supplier">ספק</string>
+    <string name="supplier_field">ספק:</string>
+    <string name="supplier_open_orders">הזמנות ספק פתוחות</string>
+    <string name="suppliers_order">הזמנת ספק</string>
+    <string name="telphone">טלפון</string>
+    <string name="the_certificate_was_received">התעודה נקלטה</string>
+    <string name="the_doc_is_exist">אסמכתא קיימת</string>
+    <string name="the_image_received">התמונה נקלטה</string>
+    <string name="time">דיווח שעות</string>
+    <string name="time_tracker_btn_action_in">כניסה</string>
+    <string name="time_tracker_btn_action_out">יציאה</string>
+    <string name="time_tracker_btn_logout">התנתק</string>
+    <string name="title_activity_brances">בחר חברה</string>
+    <string name="title_activity_chance">הזדמנות</string>
+    <string name="title_activity_close">סגירה</string>
+    <string name="title_activity_customers">לקוח</string>
+    <string name="title_activity_date">תאריך</string>
+    <string name="title_activity_project">פרויקט</string>
+    <string name="title_activity_prt">בחר פריט</string>
+    <string name="title_activity_status">סטטוס</string>
+    <string name="title_activity_stores">בחר מחסן</string>
+    <string name="title_activity_treatment_date">לטיפול בתאריך</string>
+    <string name="title_activity_type">סוג</string>
+    <string name="total">שעות</string>
+    <string name="transfer_certificate">תעודת העברה</string>
+    <string name="transfer_certificates">תעודת החזר</string>
+    <string name="treatment_date">לטיפול בתאריך</string>
+    <string name="treatment_in">לטיפול ב-</string>
+    <string name="txtNis">ש\""ח</string>
+    <string name="txtTo">ל-</string>
+    <string name="type">סוג:</string>
+    <string name="typeUse">סוג</string>
+    <string name="unit_price">מחיר ליח. מידה</string>
+    <string name="until">עד:</string>
+    <string name="until2">עד</string>
+    <string name="update">עדכון</string>
+    <string name="update_line">עדכון שורה</string>
+    <string name="use">משתמש</string>
+    <string name="yes">כן</string>
+</resources>

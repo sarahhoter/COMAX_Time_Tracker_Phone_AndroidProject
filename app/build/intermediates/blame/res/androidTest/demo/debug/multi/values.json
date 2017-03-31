@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\incremental\\mergeDemoDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 81,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\generated\\res\\resValues\\androidTest\\demo\\debug\\values\\generated.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 81,
+                        "endOffset": 242
+                    }
+                }
+            }
+        ]
+    }
+]

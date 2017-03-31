@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/g_LayoutButton1"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include android:id="@+id/action_bar"
+        layout="@layout/view_action_bar"></include>
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#FF555555"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sumClose"/>
+
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/presentClose"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+            android:textColor="#555"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/bg_border_bottom_medium_gray"
+            android:id="@+id/sumClose"
+            android:inputType="number"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+                <EditText
+            android:textColor="#555"
+            android:textSize="17dp"
+            android:paddingBottom="5dp"
+            android:inputType="number"
+            android:background="@drawable/bg_border_bottom_medium_gray"
+            android:id="@+id/presentClose"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:text="@string/next"
+            android:gravity="center|center_vertical"
+            android:layout_margin="75dp"
+            android:textColor="#555"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@drawable/white_button"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+

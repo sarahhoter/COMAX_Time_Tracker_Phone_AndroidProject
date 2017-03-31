@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\drawable-hdpi-v4\\bg_border_bottom_medium_error.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\drawable-hdpi\\bg_border_bottom_medium_error.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\drawable-hdpi-v4\\bg_border_bottom_medium_gray.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\drawable-hdpi\\bg_border_bottom_medium_gray.xml"
+    }
+]

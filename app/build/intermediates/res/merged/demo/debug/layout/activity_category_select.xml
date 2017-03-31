@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/f_mainFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEBEBE"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30861d"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/category_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:textStyle="bold"
+            android:text="@string/category_select_activity_title"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:gravity="center_vertical">
+
+            <ListView
+        android:id="@+id/category_list"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:divider="@null"
+        android:layout_height="match_parent" >
+    </ListView>
+        </LinearLayout>
+    
+</LinearLayout>

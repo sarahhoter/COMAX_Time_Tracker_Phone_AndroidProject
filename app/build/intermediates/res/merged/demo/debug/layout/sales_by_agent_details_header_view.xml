@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/g_LayoutButton1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ccffcc"
+
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="#eee" >
+
+        <LinearLayout
+            android:layout_weight="30"
+            android:id="@+id/contributionl"
+            android:layout_alignParentLeft="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical">
+
+            <ImageView
+                android:id="@+id/imc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/upn"
+                android:visibility="invisible"
+                android:tag="up" />
+
+            <TextView
+                android:id="@+id/contribution"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="right|center_vertical"
+                android:singleLine="true"
+                android:hint="@string/avg_deal"
+                android:clickable="true"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/totall"
+            android:layout_weight="26"
+            android:layout_toRightOf="@+id/contributionl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:paddingLeft="30dp">
+
+            <ImageView
+
+                android:id="@+id/imt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:src="@drawable/upn"
+                android:tag="down"/>
+            <TextView
+                android:paddingLeft="1dp"
+                android:id="@+id/total"
+                android:hint="@string/total"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center|center_vertical"
+                android:clickable="true"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="20"
+            android:id="@+id/dayl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right|center_vertical"
+            android:paddingRight="20dp"
+            android:layout_toRightOf="@+id/totall">
+
+            <TextView
+                android:id="@+id/day"
+                android:hint="@string/day"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="18sp"
+                android:clickable="true" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="28"
+            android:id="@+id/datel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/imdate"
+                android:tag="down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/down"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:hint="@string/date"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:paddingRight="5dp"
+                android:textSize="18sp"
+                android:clickable="true" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

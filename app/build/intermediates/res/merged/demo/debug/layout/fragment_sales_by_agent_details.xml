@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/navigationByStoreView"
+        layout="@layout/view_prev_next_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <include
+        android:id="@+id/sales_by_dep_header_view"
+        layout="@layout/sales_by_agent_details_header_view"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eee"></View>
+ <ListView
+       android:id="@+id/listView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></ListView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eee"></View>
+
+</LinearLayout>

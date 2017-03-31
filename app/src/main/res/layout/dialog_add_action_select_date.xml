@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/g_LayoutButton1"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include android:id="@+id/action_bar"
+        layout="@layout/view_action_bar"></include>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_above="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="76.5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="#555"
+                        android:textSize="17dp"
+                        android:paddingBottom="5dp"
+                        android:editable="false"
+                        android:paddingTop="7dp"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:gravity="right"
+                        android:layout_gravity="left"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="23.5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="#555"
+                        android:textSize="17dp"
+                        android:layout_gravity="right"
+                        android:paddingTop="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/customer_name"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="25"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:paddingBottom="5dp"
+                            android:editable="false"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:background="@drawable/bg_border_bottom_medium_gray"
+                            android:id="@+id/hour"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:layout_marginBottom="5dp"
+                            android:editable="false"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:gravity="right"
+                            android:paddingTop="3dp"
+                            android:background="@drawable/bg_border_bottom_medium_gray"
+                            android:id="@+id/until"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="10"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="end"
+                            android:paddingTop="7dp"
+                            android:text="@string/hour_title"/>
+
+                        <TextView
+                            android:textColor="#555"
+                            android:layout_gravity="end"
+                            android:textSize="17dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="1dp"
+                            android:text="@string/until2"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="60"
+                    android:weightSum="10"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="5.7"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:paddingBottom="5dp"
+                            android:editable="false"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:gravity="right"
+                            android:paddingRight="5dp"
+                            android:layout_gravity="left"
+                            android:background="@drawable/bg_border_bottom_medium_gray"
+                            android:id="@+id/select_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp" />
+
+                        <EditText
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:layout_marginBottom="5dp"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:layout_gravity="left"
+                            android:gravity="right"
+                            android:paddingTop="3dp"
+                            android:background="@drawable/bg_border_bottom_medium_gray"
+                            android:id="@+id/hour_s"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="4.3"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:layout_gravity="right"
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/date"/>
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:layout_gravity="right"
+                            android:paddingTop="3dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hour_s"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="76.5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+            android:textColor="#555"
+            android:textSize="17dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/bg_border_bottom_medium_gray"
+            android:id="@+id/location"
+            android:layout_marginBottom="5dp"
+            android:gravity="right"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_weight="23.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                    android:textColor="#555"
+                    android:paddingTop="3dp"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:textColor="#555"
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:text="@string/present"/>
+
+            <EditText
+                android:paddingTop="2dp"
+                android:id="@+id/present"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_field_background"
+                android:gravity="right|top"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:maxLength="40"
+                android:textColor="#555"
+                android:textSize="17dp"
+                android:paddingBottom="3dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:maxLines="6"
+                />
+
+            <TextView
+                android:textColor="#555"
+                android:textSize="17dp"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"/>
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_field_background"
+                android:gravity="right|top"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:maxLength="40"
+                android:textColor="#555"
+                android:textSize="17dp"
+                android:maxLines="6"
+                android:paddingBottom="3dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="2dp"
+                />
+
+            <TextView
+                android:textColor="#555"
+                android:textSize="17dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:text="@string/sum"/>
+
+            <EditText
+                android:id="@+id/sum"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_field_background"
+                android:gravity="right|top"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:maxLines="6"
+                android:maxLength="40"
+                android:textColor="#555"
+                android:textSize="17dp"
+                android:paddingBottom="3dp"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="2dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="25"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:paddingBottom="5dp"
+                            android:background="@drawable/bg_border_bottom_medium_gray"
+                            android:editable="false"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:clickable="true"
+                            android:layout_marginBottom="5dp"
+                            android:focusable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/hour_treatment" />
+
+                        <EditText
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:paddingBottom="5dp"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:background="@drawable/bg_border_bottom_medium_gray"
+                            android:clickable="true"
+                            android:layout_marginBottom="5dp"
+                            android:focusable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/presentClose" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="25"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:layout_gravity="right"
+                            android:paddingTop="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hour_title"/>
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:paddingTop="7dp"
+                            android:layout_gravity="right"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/presentClose"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="60"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="25"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/treatment_date"
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:paddingBottom="5dp"
+                            android:background="@drawable/bg_border_bottom_medium_gray"
+                            android:editable="false"
+                            android:clickable="true"
+                            android:layout_marginBottom="5dp"
+                            android:focusable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            />
+
+                        <EditText
+                            android:id="@+id/sumClose"
+                            android:textColor="#555"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:textSize="17dp"
+                            android:paddingBottom="5dp"
+                            android:background="@drawable/bg_border_bottom_medium_gray"
+                            android:clickable="true"
+                            android:layout_marginBottom="5dp"
+                            android:focusable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="25"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:paddingTop="7dp"
+                            android:layout_gravity="right"
+                            android:text="@string/treatment_date"/>
+
+                        <TextView
+                            android:textColor="#555"
+                            android:textSize="17dp"
+                            android:layout_marginBottom="5dp"
+                            android:paddingTop="7dp"
+                            android:layout_gravity="right"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sumClose"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+

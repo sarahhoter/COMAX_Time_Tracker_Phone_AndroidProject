@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mtimereporterProjectTest"
+    android:versionCode="2"
+    android:versionName="1.1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.hardware.location.gps" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.BIND_SCREENING_SERVICE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="android.permission.SET_TIME"
+        android:label="@string/app_name"
+        android:protectionLevel="signatureOrSystem" />
+
+    <application
+        name="com.binasystems.mtimereporter.TimeTrackerApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/comax_circule_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:protectionLevel="signatureOrSystem"
+        android:theme="@style/AppTheme" >
+
+        <!-- <service android:name="com.binasystems.mtimereporter.activity.LoginActivity" android:label="My Service"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.myapp.MyService" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <receiver
+            android:name="com.binasystems.mtimereporter.utils.StartMyServiceAtBootReceiver"
+            android:label="StartMyServiceAtBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.binasystems.mtimereporter.utils.service"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.CategorySelectActivity"
+            android:label="@string/title_activity_brances"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.MainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.sales.SalesMainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.sales.SaleByStoreDetailsActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.sales.SaleByAgentDetailsActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.sales.SaleByDepDetailsActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.sales.SaleByDateActivity"
+            android:label="@string/title_activity_main_menu"
+            android:parentActivityName="com.binasystems.mtimereporter.activity.MainMenuActivity"
+            android:screenOrientation="portrait" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.binasystems.mtimereporter.activity.MainMenuActivity" />
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.sales.SaleByStoreActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.sales.SaleByDepartmentActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.sales.SaleByAgentActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.times.TimeReportActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.prices.MainMenuPriceActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.add_action.AddMainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.customers.CustomerMainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binasystems.mtimereporter.activity.add_action.AddActionsMainMenuActivity"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

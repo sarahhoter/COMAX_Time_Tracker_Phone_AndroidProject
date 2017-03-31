@@ -1,0 +1,93 @@
+[
+    {
+        "outputFile": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\incremental\\mergeDemoDebugResources\\merged.dir\\values-he\\values-he.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\values-he\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 250,
+                        "endColumn": 40,
+                        "endOffset": 286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 46,
+                    "endOffset": 138
+                },
+                "from": {
+                    "file": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\values-he\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 143,
+                    "endColumn": 39,
+                    "endOffset": 178
+                },
+                "from": {
+                    "file": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\values-he\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 183,
+                    "endColumn": 74,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\values-he\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 74,
+                    "endOffset": 328
+                },
+                "from": {
+                    "file": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\values-he\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 333,
+                    "endColumn": 38,
+                    "endOffset": 367
+                },
+                "from": {
+                    "file": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\values-he\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 38,
+                        "endOffset": 326
+                    }
+                }
+            }
+        ]
+    }
+]

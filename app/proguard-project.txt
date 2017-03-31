@@ -1,0 +1,62 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+-keep class com.bugsense.** { *; }
+#-libraryjars libs/bugsense3.0.7.1.jar
+
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** v(...);
+}
+-keep class com.comaxnew.** { *; }
+-keep interface com.comaxnew.** { *; }
+
+-keep class com.comax1.** { *; }
+-keep interface com.comax1.** { *; }
+
+-keep class com.google.api.**{ *; }
+-keep interface com.google.api.**{ *; }
+
+-dontwarn org.msgpack.**
+
+-keep class com.splunk.** { *; }
+
+#-libraryjars libs/mint-4.0.8.jar
+
+ #### -- Picasso --
+ -dontwarn com.squareup.picasso.**
+
+ #### -- OkHttp --
+ -dontwarn com.squareup.okhttp.internal.**
+
+ #### -- Apache Commons --
+ -dontwarn org.apache.commons.logging.**
+
+ #proguard Event bus
+ -keepclassmembers class ** {
+     public void onEvent*(***);
+ }
+
+ -keepclassmembers,includedescriptorclasses class ** { public void onEvent*(**); }
+
+ # Only required if you use AsyncExecutor
+ -keepclassmembers class * extends de.greenrobot.event.util.ThrowableFailureEvent {
+     <init>(java.lang.Throwable);
+ }

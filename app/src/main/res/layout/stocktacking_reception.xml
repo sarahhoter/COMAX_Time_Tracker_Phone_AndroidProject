@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/g_LayoutButton1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <include android:id="@+id/action_bar"
+        layout="@layout/view_action_bar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center|center_vertical"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout1"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_weight="7.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:id="@+id/storeVal"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:id="@+id/dateVal"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    />
+
+
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:id="@+id/hourVal"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:layout_gravity="end"
+                    android:id="@+id/linesVal"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="7dp"
+                    android:inputType="number"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:layout_gravity="end"
+                    android:id="@+id/qtyVal"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:paddingTop="7dp"
+                    android:inputType="number"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2.5">
+
+                <TextView
+                    android:id="@+id/store"
+                    android:layout_gravity="end"
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:layout_marginRight="30dp"
+                    android:paddingRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/store"/>
+
+                <TextView
+                    android:id="@+id/document"
+                    android:layout_gravity="end"
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:layout_marginRight="30dp"
+                    android:paddingRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"/>
+
+
+                <TextView
+                    android:id="@+id/document"
+                    android:layout_gravity="end"
+                    android:textColor="#555"
+                    android:layout_marginRight="30dp"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hour_title"/>
+
+                <TextView
+                    android:id="@+id/quantity_review"
+                    android:textColor="#555"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="30dp"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lines"/>
+
+                <TextView
+                    android:id="@+id/quantity_review"
+                    android:textColor="#555"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="30dp"
+                    android:textSize="17dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quantity_filed"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include android:id="@+id/action_bar"
+        layout="@layout/view_action_bar"></include>
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:id="@+id/paint_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A0A0A0"
+            android:padding="4dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

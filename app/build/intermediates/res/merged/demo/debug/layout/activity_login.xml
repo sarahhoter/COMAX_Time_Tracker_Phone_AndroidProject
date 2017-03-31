@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.binasystems.mtimereporter.activity.LoginActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="195dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/main_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <EditText
+            android:id="@+id/edt_organisation"
+            style="@style/BinaEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:textDirection="rtl"
+            android:hint="ארגון"
+                android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:gravity="right"/>
+
+            <EditText
+            android:id="@+id/edt_login"
+            style="@style/BinaEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="משתמש"
+                android:selectAllOnFocus="true"
+            android:textDirection="rtl"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:gravity="right"/>
+
+            <EditText
+            android:id="@+id/edt_password"
+            style="@style/BinaEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:selectAllOnFocus="true"
+            android:hint="סיסמא"
+            android:inputType="textPassword"
+            android:textDirection="rtl"
+            android:singleLine="true"
+            android:gravity="right"/>
+
+            <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="כניסה" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/remember_login_details"
+                android:layout_weight="1"/>
+
+                <CheckBox
+                    android:id="@+id/chx_rememberMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+              </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remember_pass"
+                    android:layout_weight="1"/>
+
+                <CheckBox
+                    android:id="@+id/chx_rememberpass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="left"
+            android:text="version" />
+
+        <TextView
+            android:padding="4dp"
+            android:id="@+id/var_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="center" />
+
+        <TextView
+            android:padding="4dp"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:gravity="right" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="22"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="1773876667425455"
+    token="-1709138982122603783"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="378" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="27" />
+    <task
+        name="verifier"
+        duration="13" />
+
+    <artifact
+        location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\instant-run-resources\resources-demo\debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\transforms\dex\demo\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\transforms\dex\demo\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="1606290738274488"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\outputs\apk\app-demo-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1607133471338779"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\transforms\dex\demo\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1694295424519143"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\transforms\dex\demo\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1695996193204766"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\transforms\dex\demo\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1773876667425455"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\instant-run-resources\resources-demo\debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\transforms\dex\demo\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\AndroidProjects\COMAX_Time_Tracker_Phone_AndroidProject\app\build\intermediates\transforms\dex\demo\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

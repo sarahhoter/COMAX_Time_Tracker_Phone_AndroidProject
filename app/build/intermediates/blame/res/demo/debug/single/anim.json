@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\left_slide_out.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\left_slide_out.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\top_slide_out.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\top_slide_out.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\top_slide_in.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\top_slide_in.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\bottom_slide_out.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\bottom_slide_out.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\left_slide_in.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\left_slide_in.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\right_slide_in.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\right_slide_in.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\20.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\bottom_slide_in.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\bottom_slide_in.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\slide_out_left.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\slide_in_right.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\anim\\right_slide_out.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\anim\\right_slide_out.xml"
+    }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="branch">תאריך</string>
+    <string name="contribution">תרומה</string>
+    <string name="nis"> ש\""ח </string>
+    <string name="sales_details_transaction_average">עסקה ממוצעת:</string>
+    <string name="sales_details_transaction_counter">מספר עסקאות:</string>
+    <string name="total">שעות</string>
+</resources>

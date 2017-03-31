@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\menu\\sales.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\menu\\sales.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\menu\\forgotpassword.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\menu\\forgotpassword.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\menu\\brances.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\menu\\brances.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\menu\\login.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\build\\intermediates\\res\\merged\\demo\\debug\\menu\\time_report.xml",
+        "source": "C:\\AndroidProjects\\COMAX_Time_Tracker_Phone_AndroidProject\\app\\src\\main\\res\\menu\\time_report.xml"
+    }
+]

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/g_LayoutButton1"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include android:id="@+id/action_bar"
+        layout="@layout/view_action_bar"/>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                 android:gravity="center"
+                 android:layout_width="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"/>
+
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/present"/>
+
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:text="@string/description"/>
+
+                <TextView
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sum"/>
+
+             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingBottom="5dp"
+                    android:background="@drawable/bg_border_bottom_medium_gray"
+                    android:id="@+id/location"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp" />
+
+                <EditText
+                    android:id="@+id/present"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/edit_field_background"
+                    android:gravity="right|top"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:maxLength="40"
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingBottom="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingTop="2dp"
+                    android:maxLines="6"
+                    android:layout_marginRight="10dp" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/edit_field_background"
+                    android:gravity="right|top"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:maxLength="40"
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:maxLines="6"
+                    android:paddingBottom="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingTop="2dp"
+                    android:layout_marginRight="10dp" />
+
+                <EditText
+                    android:id="@+id/sum"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/edit_field_background"
+                    android:gravity="right|top"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:maxLines="6"
+                    android:maxLength="40"
+                    android:textColor="#555"
+                    android:textSize="17dp"
+                    android:paddingBottom="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingTop="2dp"
+                    android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:text="@string/next"
+        android:gravity="center|center_vertical"
+        android:layout_margin="75dp"
+        android:textColor="#555"
+        android:textSize="17dp"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/white_button"
+        android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+

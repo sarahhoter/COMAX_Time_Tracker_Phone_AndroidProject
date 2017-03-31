@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:background="@drawable/grid_item"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical">
+        <TextView
+        android:id="@+id/category_item_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="Test1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#555"
+        android:textSize="17dp" />
+
+        <TextView
+        android:id="@+id/category_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_weight="0"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:lines="2"
+        android:text="Test2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000"
+        android:textSize="17dp"
+        />
+
+        <TextView
+        android:id="@+id/category_item_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_weight="0"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="Test2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#555"
+        android:textSize="17dp"
+       />
+
+        <TextView
+        android:id="@+id/category_item_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_weight="0"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="Test2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#555"
+        android:textSize="17dp"
+       />
+
+<!--<view
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:clickable="false"
+    android:background="#aaa"
+    />-->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/g_LayoutButton1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_saleDateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccffcc"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="13/01/2015"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#A9A9A9"/>
+
+    <TextView
+        android:id="@+id/tv_saleTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="18"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/tv_saleType3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:text="card"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17dp"
+
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_saleType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:text="card"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/tv_saleType2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="card"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="17dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
